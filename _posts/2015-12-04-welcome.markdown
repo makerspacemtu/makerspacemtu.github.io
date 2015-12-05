@@ -5,6 +5,7 @@ date:   2015-12-04 19:52:30 -0800
 categories: update
 author: Spencer Miskoviak
 ---
+
 ### Check out our new site!
 
 This is our first post and we would like to welcome you. Check
