@@ -4,6 +4,7 @@
 $grid-row-width: 1100px;
 
 @import "foundation";
+@include foundation-global-styles;
 @include foundation-grid;
 
 $yellow: #fcc803;
@@ -70,6 +71,9 @@ ul {
   font-size: 46px;
   font-weight: 400;
 }
+.button.red {
+  background-color: $red;
+}
 .content {
   padding: 40px 0 90px;
 }
@@ -121,19 +125,10 @@ nav {
   }
 }
 
-#projects {
-  background-color: $blue;
+#involvement {
   p {
-    color: $white;
-    font-style: italic;
-    font-size: 46px;
-    padding-top: 40px;
-    a {
-      color: $white;
-      background-color: $yellow;
-      display: inline-block;
-      padding: 0 10px;
-    }
+    line-height: 1.6em;
+    padding: 50px 0;
   }
 }
 
@@ -150,9 +145,9 @@ nav {
   .description {
     background-color: $green;
     background-image: url("../img/img-team.png");
-    background-position: 20% bottom;
+    background-position: 40% bottom;
     background-repeat: no-repeat;
-    background-size: 35% auto;
+    background-size: 540px auto;
     p {
       color: $white;
       line-height: 1.6em;
@@ -161,9 +156,42 @@ nav {
   }
 }
 
-#involvement {
+#projects {
+  background-color: $blue;
   p {
-    line-height: 1.6em;
-    padding: 50px 0;
+    color: $white;
+    font-style: italic;
+    font-size: 46px;
+    padding-top: 40px;
+    a {
+      color: $white;
+      background-color: $yellow;
+      display: inline-block;
+      padding: 0 10px;
+    }
+  }
+}
+
+#updates {
+  background-color: $red;
+  .recent-post {
+    p {
+      color: $white;
+      padding: 30px 0 0;
+      line-height: 1.6em;
+    }
+    .preview-image {
+      height: 100%;
+      width: 100%;
+      background: linear-gradient(rgba($red, 0.4), rgba($red, 0.4)), url("../img/img-concept.png");
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      .button {
+        position: absolute;
+        bottom: 36px;
+        left: 36px;
+      }
+    }
   }
 }
