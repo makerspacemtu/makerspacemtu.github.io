@@ -10,8 +10,12 @@ $yellow: #fcc803;
 $red: #ed0707;
 $blue: #0765ed;
 $green: #04a025;
+$white: #fff;
 
 // site wide overrides
+a {
+  text-decoration: none;
+}
 body {
   font-family: "Montserrat";
 }
@@ -20,7 +24,29 @@ h2 {
   a {
     display: inline-block;
     color: $yellow;
+    text-decoration: underline;
   }
+}
+h3 {
+  font-size: 46px;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+  padding: 0 50px;
+  margin: 0;
+  &:before {
+    content: "";
+    background-color: $yellow;
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    left: 0;
+    top: 50%;
+    z-index: -1;
+  }
+}
+p {
+  margin: 0;
 }
 ul {
   margin: 0;
@@ -29,13 +55,19 @@ ul {
 
 // site wide styling
 .button {
-  color: #fff;
+  color: $white;
   background-color: $yellow;
   padding: 25px 100px 15px 15px;
   font-size: 24px;
   line-height: 24px;
   font-weight: 700;
   text-decoration: none;
+}
+.content {
+  padding: 40px 0;
+}
+.text-right {
+  text-align: right;
 }
 
 // custom styling
@@ -56,12 +88,11 @@ nav {
       display: inline-block;
       margin: 18px 0;
       padding: 0 24px;
-      border-right: 2px solid #fff;
+      border-right: 2px solid $white;
       a {
         font-size: 24px;
-        color: #fff;
+        color: $white;
         font-weight: 700;
-        text-decoration: none;
         line-height: 24px;
       }
     }
@@ -77,5 +108,20 @@ nav {
     background-position: center;
     background-size: cover;
     padding: 210px 0;
+  }
+  .projects {
+    background-color: $blue;
+    p {
+      color: $white;
+      font-style: italic;
+      font-size: 46px;
+      padding-top: 40px;
+      a {
+        color: $white;
+        background-color: $yellow;
+        display: inline-block;
+        padding: 0 10px;
+      }
+    }
   }
 }
