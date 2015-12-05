@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "Welcome to the Makerspace!"
+date:   2015-12-04 19:52:30 -0800
+categories: update
+author: Spencer Miskoviak
+---
+### Check out our new site!
+
+This is our first post and we would like to welcome you. Check
+back here often for updates!
+
+#### How we built it...
+
+We built this site from scratch using [Jekyll](http://jekyllrb.com/)
+to generate a static website and blog so we have a lot of flexibility
+on where we can host the website but still keep it super easy to update.
+
+We also used the newest [Foundation CSS Framework](http://foundation.zurb.com/)
+to create a clean, responsive website for all devices.
+
+If you see any issues or would like to contribute to making this website
+better feel free to fork and make a pull request. This website is
+[open source on GitHub](https://github.com/makerspacemtu/makerspacemtu.github.io)!

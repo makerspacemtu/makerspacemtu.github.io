@@ -2,14 +2,39 @@
 layout: default
 ---
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+    <div class="row">
+      <div class="small-12 columns">
+        <h1 class="post-title" itemprop="name headline">
+          {{ page.title }}
+        </h1>
+        <p class="post-meta">
+          <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
+          {% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}
+        </p>
+      </div>
+    </div>
   </header>
-
-  <div class="post-content" itemprop="articleBody">
-    {{ content }}
+  <div class="post-content content" itemprop="articleBody">
+    <div class="row">
+      <div class="small-12 columns">
+        {{ content }}
+      </div>
+    </div>
   </div>
-
+  <div class="row">
+    <div class="small-12 columns">
+      <h4>
+        All Updates
+      </h4>
+      <ul>
+      {% for post in site.posts %}
+        <li>
+          <a href="{{ post.url }}">
+            {{ post.title }} - {{ post.date | date: "%b %-d, %Y" }}
+          </a>
+        </li>
+      {% endfor %}
+    </div>
+  </div>
 </article>
