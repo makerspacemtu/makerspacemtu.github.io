@@ -1,20 +1,41 @@
 <!DOCTYPE html>
 <html>
-
   {% include head.html %}
-
   <body>
-
-    {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
+    <nav>
+      <div class="row">
+        <div class="small-12 columns">
+          <img src="img/logo-alley.png"/>
+          <ul>
+            <li>
+              <a href="#">
+                home
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                updates
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                projects
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                meet the team
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                get involved
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-
-    {% include footer.html %}
-
+    </nav>
+    {{ content }}
   </body>
-
 </html>

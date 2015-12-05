@@ -2,22 +2,23 @@
 layout: default
 ---
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
+<section id="home">
+  <div class="header">
+    <div class="row">
+      <div class="small-12 medium-8 medium-push-4">
         <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          check out the latest updates
+          on
+          <a href="#">
+            the alley
+          </a>
+          coming to life
+          in the MUB Basement.
         </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+        <a href="#" class="button">
+          check it out
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
