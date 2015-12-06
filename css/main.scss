@@ -1,8 +1,11 @@
 ---
 ---
 
-$grid-row-width: 1100px;
+// Settings and Foundation configurations
+$medium-break-point: 1100px;
+$grid-row-width: $medium-break-point;
 
+// Import libraries
 @import "foundation";
 @include foundation-global-styles;
 @include foundation-grid;
@@ -61,6 +64,18 @@ ul {
   padding: 0;
 }
 
+@media screen and (max-width: $medium-break-point) {
+  h1 {
+    font-size: 36px;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  h3 {
+    font-size: 28px;
+  }
+}
+
 // site wide styling
 .button {
   color: $white;
@@ -76,6 +91,7 @@ ul {
   padding: 20px 60px 40px 15px;
   font-style: italic;
   font-size: 46px;
+  line-height: 46px;
   font-weight: 400;
 }
 .button.small {
@@ -96,10 +112,29 @@ ul {
 .text-right {
   text-align: right;
 }
+@media screen and (max-width: $medium-break-point) {
+  .button {
+    padding: 13px 50px 8px 8px;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 700;
+  }
+  .button.large {
+    padding: 10px 30px 20px 8px;
+    font-size: 24px;
+    line-height: 24px;
+  }
+  .button.small {
+    padding: 4px 15px 6px 4px;
+    font-size: 16px;
+    line-height: 18px;
+  }
+}
 
 // custom styling
 nav {
   background-color: $yellow;
+  min-height: 63px;
   overflow: auto;
   img {
     width: 200px;
@@ -125,6 +160,47 @@ nav {
     }
     li:last-child {
       border-right: none;
+    }
+  }
+  .menu {
+    display: none;
+  }
+}
+
+@media screen and (max-width: $medium-break-point) {
+  nav {
+    min-height: auto;
+    img {
+      height: 60px;
+      padding: 5px 0;
+      width: auto;
+      position: relative;
+      display: inline-block;
+      margin-top: 0;
+    }
+    ul {
+      display: none;
+      float: none;
+      li {
+        display: block;
+        margin: 0;
+        padding: 10px 0;
+        border-right: none;
+        text-align: right;
+        a {
+          font-size: 20px;
+          line-height: 20px;
+        }
+      }
+    }
+    .menu {
+      float: right;
+      display: inline-block;
+      color: $white;
+      font-size: 40px;
+      line-height: 40px;
+      padding: 10px 0;
+      margin: 0;
     }
   }
 }
@@ -178,6 +254,14 @@ article {
     background-position: center;
     background-size: cover;
     padding: 210px 0;
+  }
+}
+
+@media screen and (max-width: $medium-break-point) {
+  #home {
+    .header {
+      padding: 60px 0;
+    }
   }
 }
 

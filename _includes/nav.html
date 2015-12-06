@@ -1,0 +1,47 @@
+<nav id="nav">
+  <div class="row">
+    <div class="small-12 columns">
+      <a href="/">
+        <img src="/img/logo-alley.png"/>
+      </a>
+      <a href="#" class="menu">
+        <i class="fa fa-bars"></i>
+      </a>
+      <ul>
+        {% if include.all_links %}
+          <li>
+            <a href="#" class="scrollto" data-element="nav">
+              home
+            </a>
+          </li>
+          <li>
+            <a href="#" class="scrollto" data-element="updates">
+              updates
+            </a>
+          </li>
+          <li>
+            <a href="#" class="scrollto" data-element="projects">
+              projects
+            </a>
+          </li>
+          <li>
+            <a href="#" class="scrollto" data-element="meet-the-team">
+              meet the team
+            </a>
+          </li>
+          <li>
+            <a href="#" class="scrollto" data-element="involvement">
+              get involved
+            </a>
+          </li>
+        {% else %}
+          <li>
+            <a href="/">
+              home
+            </a>
+          </li>
+        {% endif %}
+      </ul>
+    </div>
+  </div>
+</nav>
