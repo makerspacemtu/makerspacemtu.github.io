@@ -207,10 +207,17 @@ nav {
 
 article {
   header {
-    background-image: url("../img/bg-header.jpg");
+    background-image: linear-gradient(
+          rgba(255, 255, 255, 0.7),
+          rgba(255, 255, 255, 0.7)
+        ),
+        linear-gradient(
+          rgba(0, 0, 0, 0) 85%,
+          rgba(0, 0, 0, 0.4)
+        ), url('/img/bg-header.jpg');
     background-position: center;
     background-size: cover;
-    padding: 210px 0;
+    padding: 100px 0;
     .post-meta {
       text-align: center;
       font-weight: 700;
@@ -219,9 +226,13 @@ article {
   }
   // style how blogs posts look here, this could be a large variety of tags
   .post-content {
+    border-bottom: rgb(235, 235, 235) 1px solid;
     p {
       font-size: 20px;
       padding: 0 0 20px;
+    }
+    img {
+      margin: 10px;
     }
     a:hover {
       text-decoration: underline;
@@ -246,6 +257,10 @@ article {
       font-size: 24px;
     }
   }
+}
+
+.more-posts {
+  padding: 0 0 30px;
 }
 
 #home {
@@ -296,6 +311,46 @@ article {
   }
 }
 
+#crew {
+  .member {
+    .member-photo {
+      width: 150px;
+      height:150px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 150px auto;
+      border-radius: 50%;
+      margin: auto;
+    }
+    padding: 10px;
+    h2 {
+      font-size: 26px;
+      margin: 0;
+      text-align: center;
+      a {
+        color: black;
+        text-decoration: none;
+      }
+      a:hover {
+        color: $yellow;
+}
+    }
+    h3 {
+      font-size: 20px;
+      margin: 0 0 15px;
+      width: 100%;
+      padding: 0;
+      text-align: center;
+    }
+    p {
+      font-size: 16px;
+      margin: 0;
+      color: black;
+      padding-bottom: 5px;
+    }
+  }
+}
+
 #projects {
   background-color: $blue;
   p {
@@ -320,13 +375,19 @@ article {
       padding: 30px 0 0;
       line-height: 1.6em;
     }
+    .post-text {
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
     .preview-image {
       height: 100%;
       width: 100%;
-      background: linear-gradient(rgba($red, 0.4), rgba($red, 0.4)), url("../img/img-concept.png");
+      background: linear-gradient(rgba($red, 0.4), rgba($red, 0.4)), url("../img/bg-header.jpg");
       background-size: cover;
       background-position: center;
       position: relative;
+      padding: 0;
+      margin: 0;
       .button {
         position: absolute;
         bottom: 36px;

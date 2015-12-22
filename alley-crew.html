@@ -1,0 +1,85 @@
+---
+layout: default
+---
+
+<section id="home">
+  <div id="meet-the-team">
+    <div class="intro">
+      <div class="banner">
+        <div class="row">
+          <div class="small-12 columns">
+            <h3>
+              meet the team!
+            </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content">
+      <div class="row">
+        <div class="small-12 columns">
+          <div class="row">
+            <div class="small-12 medium-8 medium-push-2 columns">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sed erat lobortis, sodales quam sed, placerat mi.
+                Fusce congue condimentum ante quis rutrum. Cras eget cursus tortor. In sapien sapien, volutpat nec mauris quis,
+                elementum interdum tortor. Praesent consectetur viverra neque at sagittis. In et pellentesque diam. Donec eu hendrerit
+                lorem, a feugiat sem. Vivamus viverra tincidunt nunc sit amet pretium.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="crew">
+      <div class="row">
+        {% for member in site.alley_crew %}
+          <div class="member medium-6 large-4 columns">
+            <div class="member-photo" style="background-image: url('img/crew/{{ member.photo }}');"></div>
+            <h2>
+              <a href="mailto:{{ member.email }}?subject=Makerspace Involvement" target="_blank">
+                {{ member.name }}
+              </a>
+            </h2>
+            <h3>{{ member.title }}</h3>
+            <p>Specialty: {{ member.specialty }}</p>
+            <p>{{ member.description }}</p>
+          </div>
+        {% endfor %}
+        <div class="member medium-6 large-4 columns end">
+          <div class="member-photo" style="background-image: url('img/crew/generic-user.png');"></div>
+          <h2>
+            <a href="mailto:bradleyt@mtu.edu?subject=Makerspace Involvement" target="_blank">
+              Add Your Name Here
+            </a>
+          </h2>
+          <h3>Pick your title</h3>
+          <p>Specialty: What are you good at?</p>
+          <p>You get to write this bit and update as much as you want...</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="involvement" class="content">
+    <div class="row">
+      <div class="small-12 medium-8 medium-push-2 columns">
+        <div class="text-center">
+          <h3>
+            get involved!
+          </h3>
+        </div>
+        <p>
+          Interested in helping out in some way, shape, or form? Maybe you have some great ideas you want to
+          share, or maybe you even want to volunteer to oversee the space for a bit once it opens. There are
+          tons of ways to get involved in this awesome project. Fill out the simple form below and we will help
+          you find your space in the alley crew! :)
+        </p>
+        <div class="text-right">
+          <a href="mailto:bradleyt@mtu.edu?subject=Makerspace Involvement" target="_blank" class="large button">
+            contact us
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

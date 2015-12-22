@@ -2,7 +2,14 @@
 layout: page
 ---
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-  <header class="post-header">
+  <header class="post-header" {% if page.image %} style="background-image: linear-gradient(
+        rgba(255, 255, 255, 0.7),
+        rgba(255, 255, 255, 0.7)
+      ),
+      linear-gradient(
+        rgba(0, 0, 0, 0) 85%,
+        rgba(0, 0, 0, 0.4)
+      ), url('/img/{{ page.image }}');"{% endif %}>
     <div class="row">
       <div class="small-12 columns">
         <h1 class="post-title" itemprop="name headline">
@@ -22,19 +29,21 @@ layout: page
       </div>
     </div>
   </div>
-  <div class="row">
-    <div class="small-12 columns">
-      <h4>
-        All Updates
-      </h4>
-      <ul>
-      {% for post in site.posts %}
-        <li>
-          <a href="{{ post.url }}">
-            {{ post.title }} - {{ post.date | date: "%b %-d, %Y" }}
-          </a>
-        </li>
-      {% endfor %}
+  <div class="more-posts">
+    <div class="row">
+      <div class="small-12 columns">
+        <h4>
+          All Updates
+        </h4>
+        <ul>
+        {% for post in site.posts %}
+          <li>
+            <a href="{{ post.url }}">
+              {{ post.title }} - {{ post.date | date: "%b %-d, %Y" }}
+            </a>
+          </li>
+        {% endfor %}
+      </div>
     </div>
   </div>
 </article>

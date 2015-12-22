@@ -19,9 +19,9 @@ layout: default
       </div>
     </div>
   </div>
-  <div id="updates" class="content">
+  <div id="updates">
     <div class="row recent-post" data-equalizer>
-      <div class="small-12 medium-6 columns" data-equalizer-watch>
+      <div class="small-12 medium-6 columns post-text" data-equalizer-watch>
         <h3>
           updates!
         </h3>
@@ -33,7 +33,11 @@ layout: default
         </p>
       </div>
       <div class="small-12 medium-6 columns" data-equalizer-watch>
-        <div class="preview-image">
+        <div class="preview-image"
+          {% if site.posts.first.image %} style="background-image: linear-gradient(
+              rgba(237, 7, 7, 0.4),
+              rgba(237, 7, 7, 0.4)
+            ), url('/img/{{ site.posts.first.image }}');"{% endif %}>
           <a href="{{ site.posts.first.url }}" class="red button">
             check it out!
           </a>
@@ -51,7 +55,7 @@ layout: default
         </div>
         <p>
           do you know of a cool project that someone is already working on?
-          <a href="#" class="scrollto" data-element="involvement">
+          <a href="mailto:bradleyt@mtu.edu?subject=Makerspace - Cool Project" target="_blank" class="large button">
             share it with us
           </a>
           so we can feature it here!
@@ -85,7 +89,7 @@ layout: default
             </div>
           </div>
           <div class="text-right">
-            <a href="#" class="large button">
+            <a href="/alley-crew.html" class="large button">
               see the alley crew
             </a>
           </div>
