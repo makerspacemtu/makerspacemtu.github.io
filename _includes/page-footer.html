@@ -1,0 +1,51 @@
+<footer id="footer">
+  <div class="more-posts">
+    <div class="row">
+      <div class="small-12 columns">
+        <h4 id="most-recent">
+          Most Recent Updates
+        </h4>
+        <h4>
+          <a href="/updates.html" class="small button">
+          Check out all of the updates!
+        </a>
+        </h4>
+        <div id="updates-list-view">
+        {% for post in site.posts %}
+          {% if forloop.index < 4 %}
+          <div class="update medium-6 large-4 columns {% if forloop.index == 3 %}end{% else %} {% if forloop.last == true %}end{% endif %}{% endif %}">
+            <a href="{{ post.url }}">
+              <div class="update-photo" {% if post.image %}style="background-image: url('/img/{{ post.image }}');"{% endif %}></div>
+            </a>
+            <a href="{{ post.url }}">
+              <h3>{{ post.title }}</h3>
+            </a>
+            <p>
+              <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>
+              {% if post.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ post.author }}</span></span>{% endif %}
+            </p>
+            <p>
+              {{ post.content | strip_html | truncatewords:50 }}
+              <a href="{{ post.url }}" class="small button">
+                read more
+              </a>
+            </p>
+          </div>
+          {% endif %}
+        {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="tech">
+    <div class="row">
+      <div class="small-4 columns">
+        <a href="http://www.mtu.edu">
+          <img src="/img/logo-mtu.png"/>
+        </a>
+      </div>
+      <div class="small-8 columns">
+      </div>
+    </div>
+  </div>
+</footer>

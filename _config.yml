@@ -1,4 +1,3 @@
 title: The Alley | Makerspace
 collections:
-  alley_crew:
-    output: true
+  - alley_crew
