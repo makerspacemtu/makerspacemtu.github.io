@@ -1,7 +1,7 @@
 ---
 name: Austin Nyenhuis
 email: ajnyenhu@mtu.edu
-title:  "MUB Man"
+title:  "MUB Board President"
 specialty: "The MUB, Entrepreneurship"
 description: Chem Eng. loves Dinos and TWD
 photo: ajnyenhu.jpg
