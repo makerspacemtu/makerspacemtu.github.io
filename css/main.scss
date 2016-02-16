@@ -256,7 +256,9 @@ article {
       padding: 0 0 20px;
     }
     img {
-      margin: 10px;
+      margin: 10px auto;
+      display: block;
+      max-width: 66%
     }
     a:hover {
       text-decoration: underline;
@@ -276,6 +278,14 @@ article {
     }
     h4 {
       font-size: 28px;
+    }
+    .caption {
+      font-size: 14px;
+      font-weight: normal;
+      margin: 0 auto 8px auto;
+      color: gray;
+      text-align: center;
+      display: table;
     }
     h5, h6 {
       font-size: 24px;
@@ -414,12 +424,59 @@ article {
     color: $white;
     font-style: italic;
     font-size: 46px;
-    padding-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 0px;
     a {
       color: $white;
       background-color: $yellow;
       display: inline-block;
       padding: 0 10px;
+    }
+  }
+  #projects-list-view {
+    .update {
+      padding-top: 40px;
+      padding-bottom: 20px;
+      height: auto;
+      .update-photo {
+        width: 100%;
+        height:200px;
+        background-size: 100%;
+        background-position: center;
+        background-image: url('../img/bg-header.jpg');
+        position: relative;
+        padding: 0;
+        margin: 0;
+        transition: background-size 0.5s;
+        -webkit-transition: background-size 0.5s;
+      }
+      .update-photo:hover {
+        background-size: 110%;
+      }
+      h2 {
+        font-size: 20px;
+        margin: 0 0 15px;
+        width: 100%;
+        padding: 0 7px;
+        text-align: left;
+        color: $white;
+        background-color: $yellow;
+      }
+      a {
+        margin-top: 5px;
+        color: $white;
+        text-decoration: none;
+      }
+      a:hover {
+        color: black;
+      }
+      p {
+        font-size: 16px;
+        margin: 0;
+        color: $white;
+        padding-bottom: 5px;
+        padding-top: 0;
+      }
     }
   }
 }
