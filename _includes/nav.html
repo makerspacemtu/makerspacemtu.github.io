@@ -20,6 +20,11 @@
             </a>
           </li>
           <li>
+            <a href="/projects.html">
+              projects
+            </a>
+          </li>
+          <li>
             <a href="/alley-crew.html">
               meet the team
             </a>
@@ -29,12 +34,18 @@
               get involved
             </a>
           </li>
-        {% else %}
+        {% else if include.projects %}
           <li>
-            <a href="/updates.html">
-              home
+            <a href="/projects.html">
+              back to projects
             </a>
           </li>
+          {% else %}
+            <li>
+              <a href="/updates.html">
+                back to updates
+              </a>
+            </li>
         {% endif %}
       </ul>
     </div>

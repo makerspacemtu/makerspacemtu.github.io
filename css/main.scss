@@ -151,9 +151,9 @@ nav {
       display: inline-block;
       margin: 18px 0;
       padding: 0 24px;
-      border-right: 2px solid $white;
+      //border-right: 2px solid $white;
       a {
-        font-size: 24px;
+        font-size: 20px;
         color: $white;
         font-weight: 700;
         line-height: 24px;
@@ -530,6 +530,20 @@ article {
     background-image: url("../img/img-concept.png");
     .banner {
       background-color: rgba($red, 0.8);
+    }
+  }
+}
+
+#projects-list {
+  padding-bottom: 50px;
+  border-bottom: 1px $blue solid;
+  .intro {
+    padding-top: 250px;
+    background-size: cover;
+    background-position: 50% 30%;
+    background-image: url("../img/bg-projects.jpg");
+    .banner {
+      background-color: rgba($blue, 0.8);
     }
   }
 }

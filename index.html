@@ -53,6 +53,29 @@ layout: default
             projects!
           </h3>
         </div>
+        <div id="projects-list-view">
+          <div class="row">
+            {% for project in site.projects %}
+            {% if forloop.index < 4 %}
+              <div class="update medium-6 large-4 columns {% if forloop.index == 3 %}end{% endif %}">
+                <a href="{{ project.url }}">
+                  <div class="update-photo" {% if project.image %}style="background-image: url('img/{{ project.image }}');"{% endif %}></div>
+                </a>
+                <a href="{{ project.url }}">
+                  <h2>{{ project.title }}</h2>
+                </a>
+                <p>
+                  {% if project.author %}<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ project.author }}</span></span>{% endif %} •
+                  {{ project.description }}
+                  <a href="{{ project.url }}" class="small button">
+                    check it out!
+                  </a>
+                </p>
+              </div>
+              {% endif %}
+            {% endfor %}
+          </div>
+        </div>
         <p>
           do you know of a cool project that someone is already working on?
           <a href="mailto:makerspace@mtu.edu?subject=Makerspace - Cool Project" target="_blank" class="large button">
