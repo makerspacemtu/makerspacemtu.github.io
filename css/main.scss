@@ -10,15 +10,16 @@ $grid-row-width: $medium-break-point;
 @include foundation-global-styles;
 @include foundation-grid;
 
-$yellow: #fcc803;
-$red: #ed0707;
-$blue: #0765ed;
-$green: #04a025;
+$green: #76bf43;
+$yellow: #f2cf00;
+$red: #f44040;
+$blue: #3fa9f5;
+$purple: #9c41f2;
 $white: #fff;
 
 // site wide overrides
 a {
-  color: $yellow;
+  color: $green;
   text-decoration: none;
 }
 body {
@@ -34,11 +35,12 @@ h2 {
   font-size: 46px;
   a {
     display: inline-block;
-    color: $yellow;
+    color: $green;
     text-decoration: underline;
   }
 }
 h3 {
+  color: $white;
   font-size: 46px;
   position: relative;
   display: inline-block;
@@ -47,7 +49,7 @@ h3 {
   margin: 0;
   &:before {
     content: "";
-    background-color: $yellow;
+    background-color: rgba(0, 0, 0, 0.1);
     position: absolute;
     width: 100%;
     height: 70%;
@@ -55,6 +57,9 @@ h3 {
     top: 50%;
     z-index: -1;
   }
+}
+h3.green {
+    color: $green;
 }
 
 p {
@@ -80,7 +85,7 @@ ul {
 // site wide styling
 .button {
   color: $white;
-  background-color: $yellow;
+  background-color: rgba(0, 0, 0, 0.1);
   padding: 25px 100px 15px 15px;
   font-size: 24px;
   line-height: 24px;
@@ -101,8 +106,14 @@ ul {
   line-height: 18px;
   font-style: italic;
 }
+.button.green {
+  background-color: $green;
+}
 .button.red {
   background-color: $red;
+}
+.button.purple {
+  background-color: $purple;
 }
 .content {
   padding: 40px 0 90px;
@@ -134,7 +145,7 @@ ul {
 
 // custom styling
 nav {
-  background-color: $yellow;
+  background-color: $green;
   min-height: 63px;
   overflow: auto;
   img {
@@ -170,8 +181,8 @@ nav {
 
 footer {
   #tech {
-    background-color: $yellow;
-    min-height: 55px;
+    background-color: $green;
+    min-height: 75px;
     overflow: auto;
     padding: 0 10px;
     img {
@@ -260,6 +271,9 @@ article {
       display: block;
       max-width: 66%
     }
+    a {
+      color: $red;
+    }
     a:hover {
       text-decoration: underline;
     }
@@ -273,8 +287,12 @@ article {
       font-size: 36px;
     }
     h3 {
+      color: black;
       font-size: 32px;
       margin-bottom: 30px; // account for the yellow box
+      &:before {
+        background-color: rgba($red, 0.2);
+      }
     }
     h4 {
       font-size: 28px;
@@ -295,6 +313,9 @@ article {
 
 .more-posts {
   padding: 0 0 30px;
+  a {
+    background-color: $red;
+  }
 }
 
 #home {
@@ -336,12 +357,12 @@ article {
     background-position: 50% 30%;
     background-image: url("../img/bg-team.jpg");
     .banner {
-      background-color: rgba($green, 0.6);
+      background-color: rgba($purple, 0.6);
     }
   }
   .description {
-    background-color: $green;
-    background-image: url("../img/img-team.png");
+    background-color: $purple;
+    //background-image: url("../img/img-team.png");
     background-position: 40% bottom;
     background-repeat: no-repeat;
     background-size: 540px auto;
@@ -362,7 +383,7 @@ article {
 }
 
 #social-footer {
-  padding-top: 18px;
+  padding-top: 25px;
   text-align: right;
   a {
     color: $white;
@@ -400,7 +421,7 @@ article {
         text-decoration: none;
       }
       a:hover {
-        color: $yellow;
+        color: $purple;
       }
     }
     h3 {
@@ -436,7 +457,7 @@ article {
     padding-bottom: 0px;
     a {
       color: $white;
-      background-color: $yellow;
+      background-color: rgba(0, 0, 0, 0.1);;
       display: inline-block;
       padding: 0 10px;
     }
@@ -549,6 +570,23 @@ article {
       background-color: rgba($red, 0.8);
     }
   }
+  a {
+    color: $red;
+  }
+}
+
+#projects-list {
+  padding-bottom: 50px;
+  border-bottom: 1px $blue solid;
+  .intro {
+    padding-top: 250px;
+    background-size: cover;
+    background-position: 50% 30%;
+    background-image: url("../img/bg-projects.jpg");
+    .banner {
+      background-color: rgba($blue, 0.8);
+    }
+  }
 }
 
 #updates-list-view {
@@ -571,6 +609,7 @@ article {
       background-size: 110%;
     }
     h3 {
+      background-color: $red;
       font-size: 20px;
       margin: 0 0 15px;
       width: 100%;
@@ -578,11 +617,11 @@ article {
       text-align: center;
     }
     a {
-      color: black;
+      color: $white;
       text-decoration: none;
     }
     a:hover {
-      color: $red;
+      color: black;
     }
     p {
       font-size: 16px;

@@ -13,7 +13,7 @@ layout: default
           </a>
           coming to life in the MUB Basement.
         </h2>
-        <a href="{{ site.posts.first.url }}" class="button">
+        <a href="{{ site.posts.first.url }}" class="green button">
           check it out
         </a>
         <a href="http://eepurl.com/bKQAsf">
@@ -30,6 +30,17 @@ layout: default
   </div>
   <div id="updates">
     <div class="row recent-post" data-equalizer>
+      <div class="small-12 medium-6 columns" data-equalizer-watch>
+        <div class="preview-image"
+          {% if site.posts.first.image %} style="background-image: linear-gradient(
+              rgba(244, 64, 64, 0.4),
+              rgba(244, 64, 64, 0.4)
+            ), url('/img/{{ site.posts.first.image }}');"{% endif %}>
+          <a href="{{ site.posts.first.url }}" class="red button">
+            check it out!
+          </a>
+        </div>
+      </div>
       <div class="small-12 medium-6 columns post-text" data-equalizer-watch>
         <h3>
           updates!
@@ -41,17 +52,6 @@ layout: default
           read more
         </a>
       </div>
-      <div class="small-12 medium-6 columns" data-equalizer-watch>
-        <div class="preview-image"
-          {% if site.posts.first.image %} style="background-image: linear-gradient(
-              rgba(237, 7, 7, 0.4),
-              rgba(237, 7, 7, 0.4)
-            ), url('/img/{{ site.posts.first.image }}');"{% endif %}>
-          <a href="{{ site.posts.first.url }}" class="red button">
-            check it out!
-          </a>
-        </div>
-      </div>
     </div>
   </div>
   <div id="projects" class="content">
@@ -62,6 +62,29 @@ layout: default
             projects!
           </h3>
         </div>
+        <!-- <div id="projects-list-view">
+          <div class="row">
+            {% for project in site.projects %}
+            {% if forloop.index < 4 %}
+              <div class="update medium-6 large-4 columns {% if forloop.index == 3 %}end{% endif %}">
+                <a href="{{ project.url }}">
+                  <div class="update-photo" {% if project.image %}style="background-image: url('img/{{ project.image }}');"{% endif %}></div>
+                </a>
+                <a href="{{ project.url }}">
+                  <h2>{{ project.title }}</h2>
+                </a>
+                <p>
+                  {% if project.author %}<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ project.author }}</span></span>{% endif %} •
+                  {{ project.description }}
+                  <a href="{{ project.url }}" class="small button">
+                    check it out!
+                  </a>
+                </p>
+              </div>
+              {% endif %}
+            {% endfor %}
+          </div>
+        </div> -->
         <p>
           do you know of a cool project that someone is already working on?
           <a href="mailto:makerspace@mtu.edu?subject=Makerspace - Cool Project" target="_blank" class="large button">

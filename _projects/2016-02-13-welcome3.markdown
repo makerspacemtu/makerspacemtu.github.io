@@ -1,0 +1,48 @@
+---
+layout: project
+title:  "Motorcycle project 2"
+date:   2016-02-13 19:52:30 -0800
+categories: Wrenching, Design
+author: Russ Crofton
+description: Another project.
+image: /projects/2016-02-13-welcome.jpg
+---
+
+#### Take a 80's stock motorcycle and turn it into a personalized riding machine.
+
+
+I purchased a 1980 Honda Cb650C as a project bike. I would like to turn it into a mile eating four-cylinder machine, somewhere between a bobber and tracker.
+
+![Previous1](/img/projects/2016-02-13-welcome-2.jpg)
+<span class="caption">Here is what it looked like when I got it.</span>
+
+![Finished1](/img/projects/2016-02-13-welcome-4.jpg)
+<span class="caption">This is what it will look like when I'm done.</span>
+
+### Sub Projects
+3D print a custom dashboard, complete with mounting holes for switches and indicator lights.
+![Current handle bar layout](/img/projects/2016-02-13-welcome-5.jpg)
+<span class="caption">This is the current handle bar lay out. I would like to create a fuse cover that also acts like a dashboard.</span>
+
+Reshape and recover the seat to a have a thinner, tracker like design.
+![Current handle bar layout](/img/projects/2016-02-13-welcome-6.jpg)
+
+CNC aluminum emblems for the gas tank, giving a custom touch to the bike.
+![Current handle bar layout](/img/projects/2016-02-13-welcome-7.jpg)
+
+Sew up a set of saddle bags out of waxed cotton and leather.
+![Current handle bar layout](/img/projects/2016-02-13-welcome-8.jpg)
+<span class="caption">I really like these saddle bags made by Pack Animal, but they are way out of my budget. Maybe I could sew my own?</span>
+
+
+### Challenges:
+- Lots of design time
+- improving sewing skills
+
+
+### Help Wanted:
+None right now
+
+
+### Questions/Comments:
+[rdcrofto@mtu.edu](mailto:rdcrofto@mtu.edu)
