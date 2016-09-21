@@ -58,8 +58,9 @@ h3 {
     z-index: -1;
   }
 }
-h3.green {
-    color: $green;
+
+.green {
+  color: $green;
 }
 
 p {
@@ -118,7 +119,7 @@ ul {
 
 // use when you need some space between the logo
 .content {
-  padding: 40px 0;
+  padding: 60px 0 30px;
 }
 .text-center {
   text-align: center;
