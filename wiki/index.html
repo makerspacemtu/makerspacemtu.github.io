@@ -1,0 +1,10 @@
+---
+layout: default
+---
+
+
+{% for wiki in site.wikis %}
+  <a href="{{ wiki.url }}"/>
+    {{wiki.title}}
+  </a>
+{% endfor %}

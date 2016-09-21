@@ -115,8 +115,10 @@ ul {
 .button.purple {
   background-color: $purple;
 }
+
+// use when you need some space between the logo
 .content {
-  padding: 40px 0 90px;
+  padding: 40px 0;
 }
 .text-center {
   text-align: center;
@@ -148,6 +150,7 @@ nav {
   background-color: $green;
   min-height: 63px;
   overflow: auto;
+
   img {
     width: 200px;
     position: absolute;
@@ -179,28 +182,29 @@ nav {
   }
 }
 
-footer {
-  #tech {
-    background-color: $green;
-    min-height: 75px;
-    overflow: auto;
-    padding: 0 10px;
-    img {
-      width: 170px;
-      padding-top: 10px;
-      display: inline-block;
-    }
-    p {
-      font-size: 10px;
-      display: inline-block;
-      padding-top: 15px;
-    }
+
+.minimal-footer {
+  background-color: $green;
+  min-height: 75px;
+  overflow: auto;
+  padding: 0 10px;
+  img {
+    width: 170px;
+    padding-top: 10px;
+    display: inline-block;
   }
-  #most-recent {
-    float: left;
-    margin-right: 20px;
+  p {
+    font-size: 10px;
+    display: inline-block;
+    padding-top: 15px;
   }
 }
+
+#most-recent {
+  float: left;
+  margin-right: 20px;
+}
+
 
 @media screen and (max-width: $medium-break-point) {
   nav {
