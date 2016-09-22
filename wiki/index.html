@@ -1,10 +1,21 @@
 ---
-layout: default
+layout: wiki
 ---
 
+{% assign groups = site.wikis | group_by: "category" | sort: "name" %}
 
-{% for wiki in site.wikis %}
-  <a href="{{ wiki.url }}"/>
-    {{wiki.title}}
-  </a>
-{% endfor %}
+{% for group in groups %}
+  <h4 class="capitalize">
+    {{ group.name }}
+  </h4>
+  <ul>
+    {% for wiki in (site.wikis | sort: "title") %}
+      {% if wiki.category != group.name %}{% continue %}{% endif %}
+      <li>
+        <a href="{{ wiki.url }}"/>
+          {{wiki.title}}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+{%endfor%}

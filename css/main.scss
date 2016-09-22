@@ -7,15 +7,10 @@ $grid-row-width: $medium-break-point;
 
 // Import libraries
 @import "foundation";
+@import "wiki";
+@import "colors";
 @include foundation-global-styles;
 @include foundation-grid;
-
-$green: #76bf43;
-$yellow: #f2cf00;
-$red: #f44040;
-$blue: #3fa9f5;
-$purple: #9c41f2;
-$white: #fff;
 
 // site wide overrides
 a {
