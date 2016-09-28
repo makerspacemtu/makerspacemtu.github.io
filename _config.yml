@@ -1,6 +1,8 @@
 title: The Alley | Makerspace
 collections:
   alley_crew:
-      output: false
+    output: false
   projects:
-      output: true
+    output: true
+  wikis:
+    output: true

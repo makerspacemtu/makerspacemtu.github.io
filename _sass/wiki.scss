@@ -1,0 +1,24 @@
+@import "colors";
+
+.wiki {
+  h3 {
+    color: $green;
+    font-size: 36px;
+    display: block;
+    padding: 0;
+    margin: 0 0 20px;
+
+    &:before {
+      display: none;
+    }
+  }
+
+  h4 {
+    text-transform: capitalize;
+    margin: 10px 0;
+  }
+
+  ul {
+    padding-left: 30px;
+  }
+}

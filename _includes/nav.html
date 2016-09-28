@@ -19,11 +19,11 @@
               updates
             </a>
           </li>
-          <!-- <li>
-            <a href="/projects.html">
-              projects
+          <li>
+            <a href="/wiki/">
+              wiki
             </a>
-          </li> -->
+          </li>
           <li>
             <a href="/alley-crew.html">
               the team
@@ -40,12 +40,18 @@
               back to projects
             </a>
           </li>
-          {% else %}
-            <li>
-              <a href="/updates.html">
-                back to updates
-              </a>
-            </li>
+        {% elsif include.wiki %}
+          <li>
+            <a href="/wiki">
+              back to wiki
+            </a>
+          </li>
+        {% else %}
+          <li>
+            <a href="/updates.html">
+              back to updates
+            </a>
+          </li>
         {% endif %}
       </ul>
     </div>

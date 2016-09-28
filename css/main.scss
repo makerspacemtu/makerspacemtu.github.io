@@ -7,15 +7,10 @@ $grid-row-width: $medium-break-point;
 
 // Import libraries
 @import "foundation";
+@import "wiki";
+@import "colors";
 @include foundation-global-styles;
 @include foundation-grid;
-
-$green: #76bf43;
-$yellow: #f2cf00;
-$red: #f44040;
-$blue: #3fa9f5;
-$purple: #9c41f2;
-$white: #fff;
 
 // site wide overrides
 a {
@@ -58,8 +53,9 @@ h3 {
     z-index: -1;
   }
 }
-h3.green {
-    color: $green;
+
+.green {
+  color: $green;
 }
 
 p {
@@ -115,8 +111,10 @@ ul {
 .button.purple {
   background-color: $purple;
 }
+
+// use when you need some space between the logo
 .content {
-  padding: 40px 0 90px;
+  padding: 60px 0 30px;
 }
 .text-center {
   text-align: center;
@@ -148,6 +146,7 @@ nav {
   background-color: $green;
   min-height: 63px;
   overflow: auto;
+
   img {
     width: 200px;
     position: absolute;
@@ -179,28 +178,29 @@ nav {
   }
 }
 
-footer {
-  #tech {
-    background-color: $green;
-    min-height: 75px;
-    overflow: auto;
-    padding: 0 10px;
-    img {
-      width: 170px;
-      padding-top: 10px;
-      display: inline-block;
-    }
-    p {
-      font-size: 10px;
-      display: inline-block;
-      padding-top: 15px;
-    }
+
+.minimal-footer {
+  background-color: $green;
+  min-height: 75px;
+  overflow: auto;
+  padding: 0 10px;
+  img {
+    width: 170px;
+    padding-top: 10px;
+    display: inline-block;
   }
-  #most-recent {
-    float: left;
-    margin-right: 20px;
+  p {
+    font-size: 10px;
+    display: inline-block;
+    padding-top: 15px;
   }
 }
+
+#most-recent {
+  float: left;
+  margin-right: 20px;
+}
+
 
 @media screen and (max-width: $medium-break-point) {
   nav {

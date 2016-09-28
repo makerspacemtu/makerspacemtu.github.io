@@ -2,9 +2,19 @@
 <html>
   {% include head.html %}
   <body>
-    {% include nav.html %}
-    {{ content }}
-    {% include page_footer.html %}
+    {% include nav.html wiki=true %}
+    <div class="content wiki">
+      <div class="row">
+        <div class="small-12 columns">
+          <h3 class="green">
+            {{ page.title }}
+          </h3>
+
+          {{ content }}
+        </div>
+      </div>
+    </div>
+    {% include minimal_footer.html %}
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="/js/foundation.min.js"></script>
     <script src="/js/app.js"></script>
