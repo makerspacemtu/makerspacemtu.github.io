@@ -2,22 +2,30 @@
 layout: default
 ---
 
-<div class="wiki">
-  {% assign groups = site.wikis | group_by: "category" | sort: "name" %}
+<div class="content wiki">
+  <div class="row">
+    <div class="small-12 columns">
+      <h3 class="green">
+        Makerspace Wiki
+      </h3>
 
-  {% for group in groups %}
-    <h4 class="capitalize">
-      {{ group.name }}
-    </h4>
-    <ul>
-      {% for wiki in (site.wikis | sort: "title") %}
-        {% if wiki.category != group.name %}{% continue %}{% endif %}
-        <li>
-          <a href="{{ wiki.url }}"/>
-            {{wiki.title}}
-          </a>
-        </li>
-      {% endfor %}
-    </ul>
-  {%endfor%}
+      {% assign groups = site.wikis | group_by: "category" | sort: "name" %}
+
+      {% for group in groups %}
+        <h4 class="capitalize">
+          {{ group.name }}
+        </h4>
+        <ul>
+          {% for wiki in (site.wikis | sort: "title") %}
+            {% if wiki.category != group.name %}{% continue %}{% endif %}
+            <li>
+              <a href="{{ wiki.url }}"/>
+                {{wiki.title}}
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      {%endfor%}
+    </div>
+  </div>
 </div>
