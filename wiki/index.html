@@ -1,21 +1,23 @@
 ---
-layout: wiki
+layout: default
 ---
 
-{% assign groups = site.wikis | group_by: "category" | sort: "name" %}
+<div class="wiki">
+  {% assign groups = site.wikis | group_by: "category" | sort: "name" %}
 
-{% for group in groups %}
-  <h4 class="capitalize">
-    {{ group.name }}
-  </h4>
-  <ul>
-    {% for wiki in (site.wikis | sort: "title") %}
-      {% if wiki.category != group.name %}{% continue %}{% endif %}
-      <li>
-        <a href="{{ wiki.url }}"/>
-          {{wiki.title}}
-        </a>
-      </li>
-    {% endfor %}
-  </ul>
-{%endfor%}
+  {% for group in groups %}
+    <h4 class="capitalize">
+      {{ group.name }}
+    </h4>
+    <ul>
+      {% for wiki in (site.wikis | sort: "title") %}
+        {% if wiki.category != group.name %}{% continue %}{% endif %}
+        <li>
+          <a href="{{ wiki.url }}"/>
+            {{wiki.title}}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  {%endfor%}
+</div>

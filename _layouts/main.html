@@ -2,9 +2,9 @@
 <html>
   {% include head.html %}
   <body>
-    {% include nav.html %}
+    {% include nav.html all_links=true %}
     {{ content }}
-    {% include page_footer.html %}
+    {% include full_footer.html %}
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="/js/foundation.min.js"></script>
     <script src="/js/app.js"></script>
