@@ -5,7 +5,6 @@ date:   2016-09-20 07:00:00 -0800
 category: training
 ---
 
-
 **Model Number: 2606-20 Serial Number: F24DD1621 09227**
 
 This tool can be used to fasten screws/bolts and bore holes.
