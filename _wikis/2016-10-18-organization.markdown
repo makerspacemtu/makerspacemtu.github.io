@@ -5,33 +5,33 @@ date: 2016-10-18 07:00:00 -0800
 category: coach-guide
 ---
 
-### Student Leadership Team
+#### Student Leadership Team
 
-#### Alley Director
+##### Alley Director
 
 - Brad Turner
 
-#### Operations Coordinators
+##### Operations Coordinators
 
 - Magann Dykema
 - Spencer Miskoviak
 
-#### Safety/Equipment Coordinators
+##### Safety/Equipment Coordinators
 
 - Denzil Cotera
 - Michael Patrick
 
-#### Staff Coordinator
+##### Staff Coordinator
 
-#### Programming Coordinator
+##### Programming Coordinator
 
-#### Funds Coordinator
+##### Funds Coordinator
 
-#### Marketing Coordinator
+##### Marketing Coordinator
 
-### Student Staff Roles
+#### Student Staff Roles
 
-#### Alley Director
+##### Alley Director
 
 - Represents the Alley in closed meetings
 - Meets with the Leadership Team on a weekly basis
@@ -46,7 +46,7 @@ category: coach-guide
 - Manage Slack and Google Group
 - Organize feedback and provide suggestions for improvement
 
-#### Operations Coordinators
+##### Operations Coordinators
 
 - Meets with the Leadership Team on a weekly basis
 - Meets with the rest of the Leadership Team and Faculty Advisors monthly
@@ -66,7 +66,7 @@ category: coach-guide
 - Keeps track of frequently asked question in the Alley
 - Trains Maker Coaches to give tours of the Alley
 
-#### Safety/Equipment Coordinators
+##### Safety/Equipment Coordinators
 
 - Meets with the Leadership Team on a weekly basis
 - Meets with the rest of the Leadership Team and Faculty Advisors monthly
@@ -80,7 +80,7 @@ category: coach-guide
 - Manage broken and missing equipment
 - Works with the Fund Coordinator for new equipment ordering
 
-#### Staff Coordinator
+##### Staff Coordinator
 
 - Meets with the Leadership Team on a weekly basis
 - Meets with the rest of the Leadership Team and Faculty Advisors monthly
@@ -92,7 +92,7 @@ category: coach-guide
 - Keep track of hours and scheduling
 - Personnel conflicts and suspensions
 
-#### Programming Coordinator
+##### Programming Coordinator
 
 - Meets with the Leadership Team on a weekly basis
 - Meets with the rest of the Leadership Team and Faculty Advisors monthly
@@ -103,7 +103,7 @@ category: coach-guide
 - Organizes the Alley workshops
 - Other events held by the Alley
 
-#### Funds Coordinator
+##### Funds Coordinator
 
 - Meets with the Leadership Team on a weekly basis
 - Meets with the rest of the Leadership Team and Faculty Advisors monthly
@@ -112,7 +112,7 @@ category: coach-guide
 - Manage the Alley budget
 - Find new sources of funding
 
-#### Marketing Coordinator
+##### Marketing Coordinator
 
 - Meets with the Leadership Team on a weekly basis
 - Meets with the rest of the Leadership Team and Faculty Advisors monthly
@@ -122,7 +122,7 @@ category: coach-guide
 - Publicity of resources to campus
 - Publicity of programming in the Alley
 
-#### Maker Coach
+##### Maker Coach
 
 - Attend a general staff meeting monthly
 - Have knowledge of all equipment in the Alley
