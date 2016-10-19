@@ -2,7 +2,7 @@
 layout: post
 title:  "Sign Up to be a Maker Coach!"
 date:   2016-04-22 19:52:30 -0800
-categories: update
+category: update
 author: Brad Turner
 image: img-coach.jpg
 ---

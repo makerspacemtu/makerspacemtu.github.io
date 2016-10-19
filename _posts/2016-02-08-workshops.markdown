@@ -2,7 +2,7 @@
 layout: post
 title:  "Do You Wanna Run a Workshop?"
 date:   2016-02-08 19:52:30 -0800
-categories: update
+category: update
 author: Bradley Turner
 image: img-concept.png
 ---
