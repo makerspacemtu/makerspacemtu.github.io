@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to the Makerspace!"
 date:   2015-12-04 19:52:30 -0800
-categories: update
+category: update
 author: Spencer Miskoviak
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "We've got some floor plans!"
 date:   2015-12-05 19:52:30 -0800
-categories: update
+category: update
 author: Bradley Turner
 image: img-concept.png
 ---

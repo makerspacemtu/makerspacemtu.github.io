@@ -2,7 +2,7 @@
 layout: project
 title:  "1980 CB650C Brat Build"
 date:   2016-02-13 19:52:30 -0800
-categories: Wrenching, Design
+category: Wrenching, Design
 author: Russ Crofton
 description: Take a 80's stock motorcycle and turn it into a personalized riding machine.
 image: /projects/2016-02-13-welcome.jpg

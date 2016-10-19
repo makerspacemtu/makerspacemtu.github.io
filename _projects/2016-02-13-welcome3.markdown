@@ -2,7 +2,7 @@
 layout: project
 title:  "Motorcycle project 2"
 date:   2016-02-13 19:52:30 -0800
-categories: Wrenching, Design
+category: Wrenching, Design
 author: Russ Crofton
 description: Another project.
 image: /projects/2016-02-13-welcome.jpg

@@ -1,0 +1,13 @@
+---
+layout: wiki
+title: Vision
+date: 2016-10-18 07:00:00 -0800
+category: coach-guide
+---
+
+- To give students with an interest in making, creating, designing, inventing,
+tinkering, and prototyping an outlet to do so.
+- To provide and maintain a makerspace for members of the Michigan Tech community.
+- To create opportunities for learning about making and build upon existing
+knowledge through training and safety workshops to be held throughout the
+academic year.

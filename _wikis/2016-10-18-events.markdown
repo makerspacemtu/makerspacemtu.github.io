@@ -1,0 +1,23 @@
+---
+layout: wiki
+title: Events
+date: 2016-10-18 07:00:00 -0800
+category: coach-guide
+---
+
+#### Maker Coach Training
+
+- Held once a semester
+- Covers
+  - Administrative Information
+  - Emergency Plans
+  - Day to Day Operations
+  - Equipment and Safety
+- Additional training will be facilitated per interest from potential Maker
+Coaches and per machine
+
+#### Meetings
+
+- General staff meetings are once a month during normal school operating days
+(time and date are to be determined).
+- Leadership Team meetings are determined by the team.

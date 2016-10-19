@@ -1,0 +1,22 @@
+---
+layout: wiki
+title: Culture
+date: 2016-10-18 07:00:00 -0800
+category: coach-guide
+---
+
+- **Safety First** - We hold ourselves and each other to a high standard of safety
+through training on all equipment.
+- **Don’t worry about getting the perfect answer** - We encourage each other to try
+new things even if they may not work out.
+- **Continuously learn** - As there is exploration of new technologies, ideas, and
+opportunities in the Alley, we encourage reflection and learning along the way.
+- **Spend time doing instead of planning** - We encourage getting the most out of an
+experience by spending more time learning by doing instead of too much time
+focusing on the planning.
+- **Embrace transparency, inclusion, and diversity** - we encourage everyone to
+experiment, learn, grow, and have the opportunity to be heard and make an impact
+on the space.
+- **Let’s be friends** - While working together in the same space, we encourage
+getting to know each other, offering a hand, sharing experiences, and helping
+each other grow along the way.
