@@ -1,0 +1,53 @@
+@import "colors";
+
+.card {
+  border-radius: 3px;
+  border: 1px solid $blue;
+  margin: 10px;
+
+  &__background {
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    position: relative;
+
+    &-overlay {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      top: 0;
+      background-color: transparentize($blue, 0.4);
+    }
+  }
+
+  &__header {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    color: $white;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 0 0 2px #000;
+  }
+
+  &__content {
+    padding: 20px;
+  }
+
+  &__footer {
+    text-align: center;
+    background-color: transparent;
+    color: $blue;
+    border-top: 1px solid $blue;
+    padding: 10px;
+    display: block;
+    font-weight: bold;
+    transition: backgroundlor 200ms ease;
+    background-color: rgba($blue, 0.1);
+
+    &:hover {
+      background-color: rgba($blue, 0.3);
+    }
+  }
+}

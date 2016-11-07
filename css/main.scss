@@ -9,6 +9,7 @@ $grid-row-width: $medium-break-point;
 @import "foundation";
 @import "wiki";
 @import "colors";
+@import "card";
 @include foundation-global-styles;
 @include foundation-grid;
 
@@ -152,6 +153,7 @@ nav {
     position: absolute;
     display: inline-block;
     margin-top: 10px;
+    z-index: 1;
   }
   ul {
     display: inline-block;
@@ -629,5 +631,52 @@ article {
       color: black;
       padding-bottom: 5px;
     }
+  }
+}
+
+.hero {
+  width: 100%;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+
+  &:before {
+    content: '';
+    position: absolute;
+    background-color: rgba($blue, 0.6);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+  &__content {
+    margin: 0 auto;
+    max-width: 1100px;
+    position: relative;
+    height: 500px;
+
+    @media screen and (max-width: $medium-break-point) {
+      height: 300px;
+    }
+  }
+
+  &__header {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    color: $white;
+    font-size: 48px;
+    font-weight: bold;
+    text-shadow: 0 0 2px #000;
+
+    @media screen and (max-width: $medium-break-point) {
+      font-size: 32px;
+    }
+  }
+
+  &__header-subtext {
+    display: block;
+    font-size: 0.5em;
   }
 }
