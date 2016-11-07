@@ -23,7 +23,7 @@ layout: default
               </div>
               <div class="card__content">
                 <span class="event__time">
-                  <i class="fa fa-clock-o"></i> When: {{ event.start_date | date: "%B %-d, '%y %-r"  }} - {{ event.end_date | date: "%r" }}
+                  <i class="fa fa-clock-o"></i> When: {{ event.start_date | date: "%l:%M %p"  }} - {{ event.end_date | date: "%l:%M %p, %b %-d, %Y" }}
                 </span>
               </div>
               <a href="{{ event.url }}" class="card__footer">

@@ -1,5 +1,5 @@
 ---
-layout: wiki
+layout: event
 title: Makerspace Proto Night
 date: 2016-11-07 07:00:00
 start_date: 2016-12-01 19:00:00 -0500

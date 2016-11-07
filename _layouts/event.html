@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    {% include nav.html event=true %}
+
+    <div class="hero" style="background-image: url('{{ page.background_url }}');">
+      <div class="hero__content">
+        <div class="hero__header">
+          {{ page.title }}
+          <div class="hero__header-subtext">
+            <i class="fa fa-clock-o"></i> {{ page.start_date | date: "%l:%M %p"  }} - {{ page.end_date | date: "%l:%M %p, %b %-d, %Y" }}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="row">
+        <div class="small-12 columns">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="/js/foundation.min.js"></script>
+    <script src="/js/app.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>

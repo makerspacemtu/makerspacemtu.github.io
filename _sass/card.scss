@@ -37,9 +37,17 @@
 
   &__footer {
     text-align: center;
-    background-color: $blue;
-    color: $white;
+    background-color: transparent;
+    color: $blue;
+    border-top: 1px solid $blue;
     padding: 10px;
     display: block;
+    font-weight: bold;
+    transition: backgroundlor 200ms ease;
+    background-color: rgba($blue, 0.1);
+
+    &:hover {
+      background-color: rgba($blue, 0.3);
+    }
   }
 }
