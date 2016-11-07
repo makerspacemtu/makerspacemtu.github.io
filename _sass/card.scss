@@ -2,7 +2,7 @@
 
 .card {
   border-radius: 3px;
-  border: 1px solid $blue;
+  overflow: hidden;
   margin: 10px;
 
   &__background {
@@ -33,21 +33,23 @@
 
   &__content {
     padding: 20px;
+    background-color: $blue;
+    color: $white;
   }
 
   &__footer {
     text-align: center;
     background-color: transparent;
-    color: $blue;
+    color: $white;
     border-top: 1px solid $blue;
     padding: 10px;
     display: block;
     font-weight: bold;
     transition: backgroundlor 200ms ease;
-    background-color: rgba($blue, 0.1);
+    background-color: rgba($blue, 0.7);
 
     &:hover {
-      background-color: rgba($blue, 0.3);
+      background-color: rgba($blue, 0.5);
     }
   }
 }
