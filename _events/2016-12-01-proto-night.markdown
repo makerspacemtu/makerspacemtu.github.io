@@ -1,10 +1,11 @@
 ---
 layout: event
-title: Makerspace Proto Night
+title: The Alley - Makerspace Proto Night
 date: 2016-11-07 07:00:00
 start_date: 2016-12-01 19:00:00 -0500
 end_date: 2016-12-01 21:00:00 -0500
 background_url: /img/events/proto-night.jpg
+rsvp_url: https://www.facebook.com/events/1187052581343507/
 ---
 
 #### What's the point?
