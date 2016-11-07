@@ -9,6 +9,7 @@ $grid-row-width: $medium-break-point;
 @import "foundation";
 @import "wiki";
 @import "colors";
+@import "card";
 @include foundation-global-styles;
 @include foundation-grid;
 

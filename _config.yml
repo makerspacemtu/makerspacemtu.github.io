@@ -6,3 +6,5 @@ collections:
     output: true
   wikis:
     output: true
+  events:
+    output: true

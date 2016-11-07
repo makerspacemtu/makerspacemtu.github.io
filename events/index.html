@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+<div class="content wiki">
+  <div class="row">
+    <div class="small-12 columns">
+      <h3 class="green">
+        Makerspace Events
+      </h3>
+
+      {% assign events = site.events | sort: "start_date" | reverse %}
+
+      <div class="row">
+        {% for event in events %}
+          <div class="small-12 medium-6 columns">
+            <div class="card card--event">
+              <div class="card__background" style="background-image: url('{{ event.background_url }}');">
+                <div class="card__background-overlay"></div>
+                <div class="card__header">
+                  {{ event.title }}
+                </div>
+              </div>
+              <div class="card__content">
+                <span class="event__time">
+                  <i class="fa fa-clock-o"></i> When: {{ event.start_date | date: "%B %-d, '%y %-r"  }} - {{ event.end_date | date: "%r" }}
+                </span>
+              </div>
+              <a href="{{ event.url }}" class="card__footer">
+                See more details
+              </a>
+            </div>
+          </div>
+        {%endfor%}
+      </div>
+    </div>
+  </div>
+</div>
