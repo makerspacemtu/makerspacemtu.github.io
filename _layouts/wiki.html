@@ -10,7 +10,33 @@
             {{ page.title }}
           </h3>
 
-          {{ content }}
+          <div class="row">
+            <div class="small-12 medium-9 medium-push-3 columns">
+              {{ content }}
+            </div>
+            <div class="small-12 medium-3 medium-pull-9 columns">
+              <h4>
+                Wiki Pages
+              </h4>
+              {% assign groups = site.wikis | group_by: "category" | sort: "name" %}
+
+              {% for group in groups %}
+                <h6 class="wiki__side-menu-category">
+                  {{ group.name | replace: '-', ' ' }}
+                </h6>
+                <ul class="wiki__side-menu">
+                  {% for wiki in (site.wikis | sort: "title") %}
+                    {% if wiki.category != group.name %}{% continue %}{% endif %}
+                    <li>
+                      <a href="{{ wiki.url }}" class="wiki__side-menu-link">
+                        {{wiki.title}}
+                      </a>
+                    </li>
+                  {% endfor %}
+                </ul>
+              {%endfor%}
+            </div>
+          </div>
         </div>
       </div>
     </div>
