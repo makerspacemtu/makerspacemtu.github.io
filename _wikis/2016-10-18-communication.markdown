@@ -11,19 +11,19 @@ different methods for communication to optimize their function.
 
 #### Inside the Alley Structure: Maker Coaches and Leadership Team
 
-- **Slack:** Channels meant for discussions, announcements, and reminder for Maker Coaches
-- **E-mail:** Announcements and important time sensitive information
-- **Wiki:** Reference Information
+- **[Slack](http://makerspacemtu.herokuapp.com):** Channels meant for discussions, announcements, and reminder for Maker Coaches
+- **[Email](mailto:makerspace@mtu.edu):** Announcements and important time sensitive information
+- **[Wiki](http://makerspace.mtu.edu):** Reference Information
 - **Shift Chart:** Everyone's Schedule
 
 #### Inside the Alley Structure: Makers
 
-- **Facebook Group:** Fun/Social/and Discussion
-- **Slack:** Announcements and Discussion
-- **Email:** Announcements and important time sensitive information
-- **Wiki:** Tools Information
+- **[Facebook Group](https://www.facebook.com/groups/makerspacemtu/):** Fun/Social/and Discussion
+- **[Slack](http://makerspacemtu.herokuapp.com):** Announcements and Discussion
+- **[Email](mailto:makerspace@mtu.edu):** Announcements and important time sensitive information
+- **[Wiki](http://makerspace.mtu.edu):** Tools Information
 
 #### Outside the Alley Structure
 
-- **Website:** About us, and how to utilize the Alley
-- **Facebook and Twitter Pages:** Show off our cool stuff
+- **[Website](http://makerspace.mtu.edu):** About us, and how to utilize the Alley
+- **[Facebook](https://www.facebook.com/makerspacemtu/) and [Twitter](https://twitter.com/makerspacemtu):** Show off our cool stuff
