@@ -29,18 +29,36 @@ layout: default
       </div>
     </div>
     <div id="crew">
-      <div class="row">
+      <div class="row small-up-1 medium-up-2 large-up-3">
         {% for member in site.alley_crew %}
-          <div class="member medium-6 large-4 columns {% if forloop.last == true %}end{% endif %}">
-            <div class="member-photo" style="background-image: url('img/crew/{{ member.photo }}');"></div>
-            <h2>
-              <a href="mailto:{{ member.email }}?subject=Makerspace Involvement" target="_blank">
-                {{ member.name }}
-              </a>
-            </h2>
-            <h4>{{ member.title }}</h4>
+          <div class="column member">
+            <div class="member__photo" style="background-image: url('/img/crew/{{ member.photo }}');"></div>
+            <a href="mailto:{{ member.email }}?subject=Makerspace Involvement" target="_blank" class="member__name">
+              {{ member.name }}
+            </a>
+            <h4 class="member__title">
+              {{ member.title }}
+            </h4>
+            <p class="member__bio">
+              {{ member.bio }}
+            </p>
           </div>
         {% endfor %}
+          <div class="column member">
+            <div class="member__photo" style="background-image: url('/img/crew/you.png');"></div>
+            <div class="member__name">
+              You
+            </div>
+            <h4 class="member__title">
+              Events Coordinator, Staff Coordinator, Funds Coordinator, or Marketing Coordinator
+            </h4>
+            <p class="member__bio">
+              We're always looking for new members interested in being part
+              of the leadership team and helping shape the Alley. If you're
+              interested in any of the positions listed above, please
+              feel free to reach out!
+            </p>
+          </div>
       </div>
     </div>
   </div>
