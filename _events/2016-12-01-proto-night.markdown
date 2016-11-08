@@ -50,7 +50,7 @@ simple page on Facebook. It's really up to you!
 
 #### Are there general guidelines?
 1. Collaborate - work together not apart.
-2. Keep the dialog going the night including during building, making, prototyping, sketching, programming, etc.
+2. Keep the dialog going throughout the night including during building, making, prototyping, sketching, programming, etc.
 3. Encourage and incorporate your partner's ideas. Give them equal time to talk.
 4. The idea person is not in charge - but rather has equal say regarding what to do.
 
