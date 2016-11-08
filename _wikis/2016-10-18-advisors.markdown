@@ -1,9 +1,11 @@
 ---
 layout: wiki
-title: Advisors
+title: Advisors and Professional Support
 date: 2016-10-18 07:00:00 -0800
 category: coach-guide
 ---
+
+#### Advisors
 
 ##### David Dixon
 - Biosafety Officer, Compliance, Integrity, and Safety Officer
@@ -13,3 +15,11 @@ category: coach-guide
 
 ##### Mary Raber
 - Assistant Dean of Academic Programs, Pavlis Honors College
+
+#### Professional Support
+
+##### Kent Cyr
+- Assistant Professor, Visual and Performing Arts
+
+##### Michelle Miller
+- Professor, Mechanical Engineering-Engineering Mechanics
