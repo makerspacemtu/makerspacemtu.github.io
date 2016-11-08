@@ -9,31 +9,31 @@ rsvp_url: https://www.facebook.com/events/1187052581343507/
 ---
 
 #### What's the point?
-Collaboration, motivation, learning, uniting idea people with makers, meeting
+Collaboration, motivation, learning, uniting ideators with makers, meeting
 new people!
 
 #### Why 2 people?
 You will be randomly paired with one other person for the whole 2 hours. Pairs
 will chat, throw around some ideas, brainstorm, strategize, and implement a very
 focused prototype. Groups of 2 tend to have high engagement and low
-disagreement. Idea people will be paired with makers (idea people can also
+disagreement. Ideators will be paired with makers (ideators can also
 be makers).
 
 #### Why 1 prototype?
 Working on something real tends to get the ideas and energy flowing. For idea
 people, the meeting can be an easy and fun way to finally get a start on that
-prototype you've been thinking about. For makers it can be a low stress way to
+prototype you've been thinking about. For makers, it can be a low stress way to
 get motivated and connected.
 
 #### Why 0 commitment?
-By attending the meeting you aren't committing to anything beyond the 2 hours.
+By attending the event, you aren't committing to anything beyond the 2 hours.
 This keeps the stress low and ensures you'll meet a new person. Some
 pairs may opt to continue the relationship afterward, but that will be the
 exception rather than the rule.
 
 #### What should I bring?
 Nothing is required. Makers can bring anything they may need that we do not
-have in the space. Idea people should bring an idea or two.
+have in the space. Ideators should bring an idea or two.
 
 #### What if we don't get anything done?
 No problem. You still met an interesting new creative-minded person, had
@@ -44,13 +44,13 @@ fired up for 2 hours.
 2 hours isn't much time so pick a simple and achievable goal - a subset of your
 larger idea. Start with some brainstorming. Then maybe... Mock up some of the UI
 on paper, construct something from straws and pipe cleaners, 3D print a quick
-model. Make a very focused prototype out of popsicle sticks and hot glue or an
-app. Make a piece or two of the larger idea. Do a proof-of-concept or make a
-simple page on Facebook.
+model. Make a very focused prototype out of popsicle sticks and hot glue, an app,
+or a piece or two of the larger idea. Do a proof-of-concept or make a
+simple page on Facebook. It's really up to you!
 
 #### Are there general guidelines?
 1. Collaborate - work together not apart.
-2. Keep the dialog going the whole night. Including during building, making, prototyping, sketching, programming.
+2. Keep the dialog going the night including during building, making, prototyping, sketching, programming, etc.
 3. Encourage and incorporate your partner's ideas. Give them equal time to talk.
 4. The idea person is not in charge - but rather has equal say regarding what to do.
 

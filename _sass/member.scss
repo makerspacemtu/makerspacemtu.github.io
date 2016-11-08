@@ -1,0 +1,30 @@
+.member {
+  &__name {
+    color: $blue;
+    text-decoration: none;
+    font-size: 24px;
+
+    &:hover {
+      color: $green;
+    }
+  }
+
+  &__title {
+    color: $red;
+    font-size: 18px;
+    padding: 0;
+    margin: 8px 0;
+  }
+
+  &__photo {
+    background-size: cover;
+    background-position: top;
+    width: 180px;
+    height: 180px;
+    margin: 20px 0;
+  }
+
+  &__bio {
+    margin-bottom: 30px;
+  }
+}

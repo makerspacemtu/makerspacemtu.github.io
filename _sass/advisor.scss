@@ -1,0 +1,18 @@
+.advisor {
+  margin-bottom: 30px;
+
+  &__name {
+    font-size: 24px;
+    color: $blue;
+    text-decoration: none;
+
+    &:hover {
+      color: $green;
+    }
+  }
+
+  &__title {
+    font-size: 16px;
+    font-weight: bold;
+  }
+}
