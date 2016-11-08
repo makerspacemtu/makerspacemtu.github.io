@@ -19,7 +19,6 @@ category: coach-guide
 ##### Safety/Equipment Coordinators
 
 - Denzil Cotera
-- Michael Patrick
 
 ##### Staff Coordinator
 
