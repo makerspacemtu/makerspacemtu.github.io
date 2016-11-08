@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<section id="home">
+<section>
   <div id="meet-the-team">
     <div class="intro">
       <div class="banner">
@@ -28,6 +28,15 @@ layout: default
         </div>
       </div>
     </div>
+
+    <div class="row">
+      <div class="small-12 columns">
+        <h3 class="green margin-bottom">
+          Student Leadership
+        </h3>
+      </div>
+    </div>
+
     <div id="crew">
       <div class="row small-up-1 medium-up-2 large-up-3">
         {% for member in site.alley_crew %}
@@ -44,21 +53,60 @@ layout: default
             </p>
           </div>
         {% endfor %}
-          <div class="column member">
-            <div class="member__photo" style="background-image: url('/img/crew/you.png');"></div>
-            <div class="member__name">
-              You
-            </div>
-            <h4 class="member__title">
-              Events Coordinator, Staff Coordinator, Funds Coordinator, or Marketing Coordinator
-            </h4>
-            <p class="member__bio">
-              We're always looking for new members interested in being part
-              of the leadership team and helping shape the Alley. If you're
-              interested in any of the positions listed above, please
-              feel free to reach out!
-            </p>
+        <div class="column member">
+          <div class="member__photo" style="background-image: url('/img/crew/you.png');"></div>
+          <div class="member__name">
+            You
           </div>
+          <h4 class="member__title">
+            Events Coordinator, Staff Coordinator, Funds Coordinator, or Marketing Coordinator
+          </h4>
+          <p class="member__bio">
+            We're always looking for new members interested in being part
+            of the leadership team and helping shape the Alley. If you're
+            interested in any of the positions listed above, please
+            feel free to reach out!
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="small-12 columns">
+        <h3 class="green margin-bottom">
+          Advisors
+        </h3>
+      </div>
+    </div>
+
+    <div class="row small-up-1 medium-up-2 large-up-3">
+      {% for advisor in site.advisors %}
+        <div class="column advisor">
+          <a href="mailto:{{ advisor.email }}?subject=Makerspace Involvement" target="_blank" class="advisor__name">
+            <i class="fa fa-user"></i>
+            {{ advisor.name }}
+          </a>
+          <p class="advisor__title">
+            {{ advisor.title }}
+          </p>
+        </div>
+      {% endfor %}
+    </div>
+
+    <div class="row">
+      <div class="small-12 columns">
+        <h3 class="green margin-bottom">
+          Coaches
+        </h3>
+
+        <p class="margin-bottom">
+          <em>Full list of coaches coming soon!</em>
+        </p>
+
+        <p class="margin-bottom">
+          Stop by the Alley to meet our team of amazing coaches that are
+          here to assist you and share their experience!
+        </p>
       </div>
     </div>
   </div>

@@ -11,6 +11,7 @@ $grid-row-width: $medium-break-point;
 @import "colors";
 @import "card";
 @import "member";
+@import "advisor";
 @include foundation-global-styles;
 @include foundation-grid;
 
@@ -58,6 +59,10 @@ h3 {
 
 .green {
   color: $green;
+}
+
+.margin-bottom {
+  margin-bottom: 30px;
 }
 
 p {
