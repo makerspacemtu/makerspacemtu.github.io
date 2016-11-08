@@ -64,6 +64,17 @@ report these findings to the Safety/Equipment Lead.
 Be watching to see if there are any supplies that are running low or missing.
 This should be reported to the Operations Coordinators.
 
+#### Storage of Projects
+
+Personal projects are allowed to be stored in the space as long as the following
+requirements are met:
+
+- Project takes up a reasonable amount of space.
+- Project is clearly marked with name and contact information. If project is not
+  marked, it will be assumed that the materials are up for grabs.
+- Project is consistently worked on and stored for a reasonable amount of time.
+
+
 #### Things to look out for while on duty (or while in the Alley)
 
 ##### General Rules

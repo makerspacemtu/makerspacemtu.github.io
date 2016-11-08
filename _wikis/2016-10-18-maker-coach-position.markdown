@@ -5,7 +5,7 @@ date: 2016-10-18 07:00:00 -0800
 category: coach-guide
 ---
 
-Congrats on joining the Alley staff. Maker Coaches are the glue that will hold
+Maker Coaches are the glue that will hold
 the Alley together. They are the creators, makers, artists, tinkerers,
 designers, builders, and inventors that want to share their passions with other
 members of the Michigan Tech community. These volunteers will spend time in the
