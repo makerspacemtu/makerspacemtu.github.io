@@ -5,9 +5,11 @@
 $medium-break-point: 1100px;
 $grid-row-width: $medium-break-point;
 
+$border-radius: 3px;
+
 // variables and general styles
-@import "typography";
 @import "colors";
+@import "typography";
 
 // Import libraries
 @import "foundation";
@@ -15,6 +17,7 @@ $grid-row-width: $medium-break-point;
 @import "card";
 @import "member";
 @import "advisor";
+@import "hero";
 @import "home";
 
 @include foundation-global-styles;
