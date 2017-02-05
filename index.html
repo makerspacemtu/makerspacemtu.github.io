@@ -9,13 +9,13 @@ layout: main
         Your space to<br/>
         bring projects to life
       </h1>
-      <a href="#" class="hero__button">
+      <a href="#" class="button">
         Check it out!
       </a>
-      <a href="#" class="hero__button">
+      <a href="{{ site.facebook_url }}" class="button" target="_blank">
         <i class="fa fa-facebook"></i>
       </a>
-      <a href="#" class="hero__button">
+      <a href="{{ site.twitter_url }}" class="button" target="_blank">
         <i class="fa fa-twitter"></i>
       </a>
     </div>
@@ -86,3 +86,5 @@ layout: main
     </div>
   </div>
 </div>
+
+{% include call_to_action.html %}

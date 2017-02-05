@@ -11,3 +11,7 @@ collections:
     output: true
   events:
     output: true
+
+facebook_url: https://www.facebook.com/makerspacemtu/
+twitter_url: https://twitter.com/makerspacemtu
+email_address: makerspace@mtu.edu

@@ -20,6 +20,9 @@ $border-radius: 3px;
 @import "hero";
 @import "home";
 @import "nav";
+@import "footer";
+@import "button";
+@import "call_to_action";
 
 @include foundation-global-styles;
 @include foundation-grid;
