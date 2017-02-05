@@ -1,0 +1,51 @@
+.nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__logo-link {
+    display: inline-block;
+  }
+
+  &__logo {
+    display: inline-block;
+    height: 60px;
+    padding: 10px;
+  }
+
+  &__menu-toggle {
+    display: none;
+  }
+
+  &__link-list {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  &__link {
+    display: inline-block;
+    font-weight: bold;
+    color: $white;
+    padding: 15px 0;
+    margin: 0 15px;
+    text-decoration: none;
+
+    &:hover {
+      padding-top: 5px;
+      border-top: 10px solid $white;
+    }
+  }
+
+  &__link-item {
+    display: inline-block;
+  }
+}

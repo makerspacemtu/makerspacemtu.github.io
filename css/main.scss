@@ -19,6 +19,7 @@ $border-radius: 3px;
 @import "advisor";
 @import "hero";
 @import "home";
+@import "nav";
 
 @include foundation-global-styles;
 @include foundation-grid;
