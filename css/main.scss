@@ -28,3 +28,7 @@ $border-radius: 3px;
 
 @include foundation-global-styles;
 @include foundation-grid;
+
+.content {
+  padding: 30px 0;
+}
