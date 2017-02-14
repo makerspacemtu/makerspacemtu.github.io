@@ -19,7 +19,7 @@ layout: main
       <div class="row">
         <div class="small-12 columns">
           <div class="row">
-            <div class="small-12 medium-8 medium-push-2 columns">
+            <div class="small-12 columns">
               <p>
                 Check out the latest progress and updates below. We will try to
                 post as often as we can, but if you want some more content feel
@@ -33,24 +33,23 @@ layout: main
           </div>
         </div>
       </div>
-    </div>
-    <div id="updates-list-view">
+
       <div class="row">
         {% for post in site.posts %}
           <div class="update medium-6 large-4 columns {% if forloop.last == true %}end{% endif %}">
             <a href="{{ post.url }}">
               <div class="update-photo" {% if post.image %}style="background-image: url('img/{{ post.image }}');"{% endif %}></div>
             </a>
-            <a href="{{ post.url }}">
-              <h3>{{ post.title }}</h3>
+            <a href="{{ post.url }}" class="header small">
+              {{ post.title }}
             </a>
-            <p>
+            <p class="small">
               <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>
               {% if post.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ post.author }}</span></span>{% endif %}
             </p>
-            <p>
+            <p class="small">
               {{ post.content | strip_html | truncatewords:50 }}
-              <a href="{{ post.url }}" class="small red button">
+              <a href="{{ post.url }}" class="button block">
                 read more
               </a>
             </p>

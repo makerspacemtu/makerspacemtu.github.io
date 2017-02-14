@@ -1,0 +1,94 @@
+---
+layout: main
+---
+
+<section>
+  <div class="content">
+    <div class="row">
+      <div class="small-12 columns">
+        <h3 class="header">
+          Meet the Team
+        </h3>
+        <p>
+          Bringing the old MUB Basement to life with an awesome space for
+          creators, makers, tinkerers, designers, inventors, (whatever you
+          prefer to call yourself), takes a lot of work. And it's gonna take
+          even more when it comes to running it on a daily basis. That's
+          what the alley crew will do once we get it up and moving.
+          Interested in helping out? <a
+          href="https://docs.google.com/forms/d/1k2h8GUhAPetOmOHl19RDwa6ZBaaXHhA3LUfiEEQbOyo/viewform?c=0&w=1">Sign
+          up here!</a> For now, check out the committee of people working on
+          putting it all together!
+        </p>
+
+        <h3 class="header">
+          Student Leadership
+        </h3>
+
+        <div class="row small-up-1 medium-up-2 large-up-3">
+          {% for member in site.alley_crew %}
+            <div class="column member">
+              <div class="member__photo" style="background-image: url('/img/crew/{{ member.photo }}');"></div>
+              <a href="mailto:{{ member.email }}?subject=Makerspace Involvement" target="_blank" class="member__name">
+                {{ member.name }}
+              </a>
+              <h4 class="member__title">
+                {{ member.title }}
+              </h4>
+              <p class="member__bio small">
+                {{ member.bio }}
+              </p>
+            </div>
+          {% endfor %}
+
+          <div class="column member">
+            <div class="member__photo" style="background-image: url('/img/crew/you.png');"></div>
+            <div class="member__name">
+              You
+            </div>
+            <h4 class="member__title">
+              Events Coordinator, Staff Coordinator, Funds Coordinator, or Marketing Coordinator
+            </h4>
+            <p class="member__bio small">
+              We're always looking for new members interested in being part
+              of the leadership team and helping shape the Alley. If you're
+              interested in any of the positions listed above, please
+              feel free to reach out!
+            </p>
+          </div>
+        </div>
+
+        <h3 class="header">
+          Advisors
+        </h3>
+
+        <div class="row small-up-1 medium-up-2 large-up-3">
+          {% for advisor in site.advisors %}
+            <div class="column advisor">
+              <a href="mailto:{{ advisor.email }}?subject=Makerspace Involvement" target="_blank" class="advisor__name">
+                <i class="fa fa-user"></i>
+                {{ advisor.name }}
+              </a>
+              <p class="advisor__title">
+                {{ advisor.title }}
+              </p>
+            </div>
+          {% endfor %}
+        </div>
+
+        <h3 class="header">
+          Coaches
+        </h3>
+
+        <p class="margin-bottom">
+          <em>Full list of coaches coming soon!</em>
+        </p>
+
+        <p class="margin-bottom">
+          Stop by the Alley to meet our team of amazing coaches that are
+          here to assist you and share their experience!
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
