@@ -2,9 +2,31 @@
 <html>
   {% include head.html %}
   <body>
-    {% include nav.html all_links=true %}
+    <div class="hero hero--home">
+      <div class="row">
+        <div class="small-12 columns">
+          {% include nav.html %}
+          <h1 class="hero__header">
+            Your space to<br/>
+            bring projects to life
+          </h1>
+          <div class="hero__buttons">
+            <a href="{{ site.email_updates_url }}" class="button">
+              Sign up for updates!
+            </a>
+            <a href="{{ site.facebook_url }}" class="button" target="_blank">
+              <i class="fa fa-facebook"></i>
+            </a>
+            <a href="{{ site.twitter_url }}" class="button" target="_blank">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
     {{ content }}
-    {% include full_footer.html %}
+    {% include call_to_action.html %}
+    {% include footer.html %}
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="/js/foundation.min.js"></script>
     <script src="/js/app.js"></script>

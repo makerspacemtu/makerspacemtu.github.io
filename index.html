@@ -2,128 +2,67 @@
 layout: main
 ---
 
-<section id="home">
-  <div class="header">
-    <div class="row">
-      <div class="small-12 medium-8 medium-push-4 columns">
-        <h2>
-          check out the latest updates on
-          <a href="#" class="scrollto" data-element="updates">
-            the alley
-          </a>
-          coming to life in the MUB Basement.
-        </h2>
-        <a href="{{ site.posts.first.url }}" class="green button">
-          check it out
-        </a>
-        <a href="http://eepurl.com/bKQAsf">
-          <i class="fa fa-envelope"></i>
-        </a>
-        <a href="http://www.twitter.com/makerspacemtu">
-          <i class="fa fa-twitter"></i>
-        </a>
-        <a href="http://www.facebook.com/makerspacemtu">
-          <i class="fa fa-facebook"></i>
-        </a>
-      </div>
-    </div>
+<div class="row">
+  <div class="small-12 columns">
+    <h2 class="header">
+      Our Mission
+    </h2>
+    <p>
+      We exist to create an environment where everyone in the Michigan Tech
+      community is encouraged and supported to make by providing a welcoming
+      space, learning opportunities, a maker network, and resources.
+    </p>
   </div>
-  <div id="updates">
-    <div class="row recent-post" data-equalizer>
-      <div class="small-12 medium-6 columns" data-equalizer-watch>
-        <div class="preview-image"
-          {% if site.posts.first.image %} style="background-image: linear-gradient(
-              rgba(244, 64, 64, 0.4),
-              rgba(244, 64, 64, 0.4)
-            ), url('/img/{{ site.posts.first.image }}');"{% endif %}>
-          <a href="{{ site.posts.first.url }}" class="red button">
-            check it out!
-          </a>
-        </div>
+</div>
+
+<div class="row">
+  <div class="small-12 columns">
+    <h2 class="header">
+      About the Space
+    </h2>
+    <div class="list-item">
+      <div class="list-item__icon">
+        <i class="fa fa-map-marker"></i>
       </div>
-      <div class="small-12 medium-6 columns post-text" data-equalizer-watch>
-        <h3>
-          updates!
-        </h3>
+      <div class="list-item__text">
         <p>
-          {{ site.posts.first.content | strip_html | newline_to_br | truncatewords:90 }}
+          located in the MUB Basement
         </p>
-        <a href="{{ site.posts.first.url }}" class="small button">
-          read more
-        </a>
       </div>
     </div>
-  </div>
-  <div id="projects" class="content">
-    <div class="row">
-      <div class="small-12 columns">
-        <div class="text-right">
-          <h3>
-            projects!
-          </h3>
-        </div>
-        <!-- <div id="projects-list-view">
-          <div class="row">
-            {% for project in site.projects %}
-            {% if forloop.index < 4 %}
-              <div class="update medium-6 large-4 columns {% if forloop.index == 3 %}end{% endif %}">
-                <a href="{{ project.url }}">
-                  <div class="update-photo" {% if project.image %}style="background-image: url('img/{{ project.image }}');"{% endif %}></div>
-                </a>
-                <a href="{{ project.url }}">
-                  <h2>{{ project.title }}</h2>
-                </a>
-                <p>
-                  {% if project.author %}<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ project.author }}</span></span>{% endif %} •
-                  {{ project.description }}
-                  <a href="{{ project.url }}" class="small button">
-                    check it out!
-                  </a>
-                </p>
-              </div>
-              {% endif %}
-            {% endfor %}
-          </div>
-        </div> -->
+
+    <div class="list-item">
+      <div class="list-item__icon">
+        <i class="fa fa-clock-o"></i>
+      </div>
+      <div class="list-item__text">
         <p>
-          do you know of a cool project that someone is already working on?
-          <a href="mailto:makerspace@mtu.edu?subject=Makerspace - Cool Project" target="_blank" class="large button">
-            share it with us
-          </a>
-          so we can feature it here!
+          open Monday - Thursday, 3:00 - 9:00 pm
+        </p>
+      </div>
+    </div>
+
+    <div class="list-item">
+      <div class="list-item__icon">
+        <i class="fa fa-money"></i>
+      </div>
+      <div class="list-item__text">
+        <p>
+          no cost for Michigan Tech students, faculty, and staff
+        </p>
+      </div>
+    </div>
+
+    <div class="list-item">
+      <div class="list-item__icon">
+        <i class="fa fa-wrench"></i>
+      </div>
+      <div class="list-item__text">
+        <p>
+          tools and equipment available to use for 3D printing, woodworking,
+          electronics, crafting, sewing, and more!
         </p>
       </div>
     </div>
   </div>
-  <div id="meet-the-team">
-    <div class="intro">
-      <div class="banner">
-        <div class="row">
-          <div class="small-12 columns">
-            <h3>
-              meet the team!
-            </h3>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="description content">
-      <div class="row">
-        <div class="small-12 columns">
-          <div class="row">
-            <div class="small-12 medium-8 medium-push-2 columns">
-              <p>
-                Bringing the old MUB Basement to life with an awesome space for creators, makers, tinkerers, designers, inventors, (whatever you prefer to call yourself), takes a lot of work. And it's gonna take even more when it comes to running it on a daily basis. That's what the alley crew will do once we get it up and moving. Interested in helping out? <a href="https://docs.google.com/forms/d/1k2h8GUhAPetOmOHl19RDwa6ZBaaXHhA3LUfiEEQbOyo/viewform?c=0&w=1" class="small button">Sign up here!</a> For now, check out the committee of people working on putting it all together!
-              </p>
-            </div>
-          </div>
-          <div class="text-right">
-            <a href="/alley-crew.html" class="large button">
-              see the alley crew
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+</div>

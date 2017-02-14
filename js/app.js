@@ -9,8 +9,8 @@ $(function() {
   });
 
   // menu on smaller devices
-  $(".menu").click(function(e) {
+  $(".nav__menu-toggle").click(function(e) {
     e.preventDefault();
-    $("nav ul").slideToggle();
+    $(".nav__link-list").slideToggle();
   })
 });

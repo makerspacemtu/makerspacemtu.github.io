@@ -1,0 +1,14 @@
+.footer {
+  padding: 30px 0;
+  background: $white;
+  text-align: center;
+
+  &__logo {
+    height: 70px;
+    margin: 0 10px;
+
+    @media screen and (max-width: $medium-break-point) {
+      height: 40px;
+    }
+  }
+}
