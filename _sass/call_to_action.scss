@@ -9,5 +9,10 @@
     font-stretch: normal;
     line-height: normal;
     letter-spacing: normal;
+    margin-top: 0;
+
+    @media screen and (max-width: $medium-break-point) {
+      font-size: 24px;
+    }
   }
 }
