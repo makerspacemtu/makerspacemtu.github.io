@@ -2,7 +2,7 @@
 layout: wiki
 title:  M18- Cordless 1/2" Drill/Driver
 date:   2016-09-20 07:00:00 -0800
-category: training
+category: tools-and-equipment
 ---
 
 **Model Number: 2606-20 Serial Number: F24DD1621 09227**
