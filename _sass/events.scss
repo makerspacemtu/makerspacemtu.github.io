@@ -1,0 +1,24 @@
+@import "colors";
+
+.event-card {
+  display: block;
+  text-decoration: none;
+  color: $dark;
+
+  &__background {
+    height: 200px;
+    width: 100%;
+    border-radius: 6px;
+    background-position: center;
+    background-size: cover;
+  }
+
+  &__time {
+    color: $blue;
+    font-weight: bold;
+  }
+
+  &__description {
+    margin-top: 20px;
+  }
+}

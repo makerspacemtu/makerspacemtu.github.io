@@ -9,27 +9,24 @@ layout: main
         Makerspace Events
       </h3>
 
-      {% assign events = site.events | sort: "start_date" | reverse %}
+      {% assign sorted_events = site.events | sort: "start_date" | reverse %}
 
       <div class="row">
-        {% for event in events %}
-          <div class="small-12 medium-6 columns">
-            <div class="card card--event">
-              <div class="card__background" style="background-image: url('{{ event.background_url }}');">
-                <div class="card__background-overlay"></div>
-                <div class="card__header">
-                  {{ event.title }}
-                </div>
+        {% for event in sorted_events %}
+          <div class="small-12 medium-4 columns">
+            <a href="{{ event.url }}" class="event-card">
+              <div class="event-card__background" style="background-image: url('{{ event.background_url }}');"></div>
+              <div class="header small">
+                {{ event.title }}
               </div>
-              <div class="card__content">
-                <span class="event__time">
-                  <i class="fa fa-clock-o"></i> When: {{ event.start_date | date: "%l:%M %p"  }} - {{ event.end_date | date: "%l:%M %p, %b %-d, %Y" }}
-                </span>
+              <div class="event-card__time">
+                <i class="fa fa-clock-o"></i> {{ event.start_date | date: "%l:%M %p"  }} - {{ event.end_date | date: "%l:%M %p, %b %-d, %Y" }}
               </div>
-              <a href="{{ event.url }}" class="card__footer">
-                See more details
-              </a>
-            </div>
+              <p class="event-card__description small">
+                {{ event.excerpt | strip_html | truncatewords:50 }}
+                </a>
+              </p>
+            </a>
           </div>
         {%endfor%}
       </div>
