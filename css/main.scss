@@ -25,6 +25,7 @@ $border-radius: 3px;
 @import "footer";
 @import "button";
 @import "call_to_action";
+@import "events";
 
 @include foundation-global-styles;
 @include foundation-grid;
