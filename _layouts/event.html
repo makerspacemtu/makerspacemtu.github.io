@@ -2,7 +2,7 @@
 <html>
   {% include head.html %}
   <body>
-    <div class="hero hero--home">
+    <div class="hero hero--home" style="background-image: url('{{ page.background_url }}');">
       <div class="row">
         <div class="small-12 columns">
           {% include nav.html %}
@@ -23,28 +23,11 @@
       </div>
     </div>
 
-    <div class="hero__sub-hero">
-      <div class="hero__sub-hero-content">
-
-
-      </div>
-    </div>
-
     <div class="content">
       <div class="row">
         <div class="small-12 columns">
           {{ content }}
         </div>
-      </div>
-    </div>
-
-    <div class="hero__sub-hero">
-      <div class="hero__sub-hero-content">
-        <span class="hero__details">
-
-        </span>
-
-
       </div>
     </div>
 
@@ -61,7 +44,6 @@
         </div>
       </div>
     </div>
-
 
     {% include footer.html %}
 
