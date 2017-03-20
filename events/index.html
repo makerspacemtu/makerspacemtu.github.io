@@ -11,8 +11,13 @@ layout: main
 
       {% assign sorted_events = site.events | sort: "start_date" | reverse %}
 
-      <div class="row">
-        {% for event in sorted_events %}
+      {% for event in sorted_events %}
+        {% capture should_add_row %}{{ forloop.index | modulo: 3 }}{% endcapture %}
+
+        {% if should_add_row == "1" %}
+          <div class="row events__row">
+        {% endif %}
+
           <div class="small-12 medium-4 columns">
             <a href="{{ event.url }}" class="event-card">
               <div class="event-card__background" style="background-image: url('{{ event.background_url }}');"></div>
@@ -28,8 +33,12 @@ layout: main
               </p>
             </a>
           </div>
-        {%endfor%}
-      </div>
+
+        {% if should_add_row == "0" %}
+          </div>
+        {% endif %}
+
+      {%endfor%}
     </div>
   </div>
 </div>

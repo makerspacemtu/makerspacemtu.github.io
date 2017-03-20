@@ -1,0 +1,18 @@
+---
+layout: event
+title: 'Fusion 360 Crash Course'
+date: 2016-03-01 07:00:00
+start_date: 2017-03-23 18:00:00 -0400
+end_date: 2017-03-23 20:00:00 -0400
+background_url: https://scontent.xx.fbcdn.net/v/t31.0-8/17388899_1828559937401876_6908466682326659621_o.jpg?oh=8dff8d548610f81320634ff1220b36ef&oe=596A7F48
+rsvp_url: http://bit.ly/learnfusion360
+---
+
+Want to start using modeling software but don't know where to start? Check out
+this student-taught crash course on Fusion 360! No previous modeling experience
+required.
+
+Register in advance [here](http://bit.ly/learnfusion360).
+
+Topics include sketching, dimensioning, ways to make solid bodies, assemblies,
+and some other useful techniques.
