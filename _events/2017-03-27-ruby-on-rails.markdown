@@ -9,12 +9,14 @@ rsvp_url: https://www.facebook.com/events/1524691144209647/
 ---
 
 Are you interested in learning web development or Ruby on Rails? Join us for a
-short workshop on the basics of Ruby on Rails. Everyone is welcome and nothing
+short workshop on the basics of Ruby on Rails. Everyone is welcome, and nothing
 is required to participate!
 
-It will be helpful (but not required) to have some basic programming or previous
-web development knowledge. Additionally, we encourage you to bring your laptop
-if possible to follow along and try things out. The workshop assumes you have
-Ruby on Rails already installed so if you want to follow along it would be
-beneficial to have it installed and working. The basics for getting started can
-be [found here](http://guides.rubyonrails.org/getting_started.html).
+No experience is necessary though some basic programming or previous web
+development knowledge is helpful! We encourage you to bring a laptop, if
+possible, so that you can follow along and try things out. If you plan on
+bringing a laptop, please have Ruby on Rails already installed and working so
+that you can follow along as we go. The basics for getting started with the
+program can be [found here](http://guides.rubyonrails.org/getting_started.html).
+Remember that everyone is welcome, and nothing is required to participate. We
+look forward to seeing you!
