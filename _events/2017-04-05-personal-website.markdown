@@ -2,8 +2,8 @@
 layout: event
 title: 'Build a Personal Website with Jekyll & GitHub Pages'
 date: 2016-03-01 07:00:00
-start_date: 2017-03-27 18:00:00 -0400
-end_date: 2017-03-27 19:00:00 -0400
+start_date: 2017-04-05 18:00:00 -0400
+end_date: 2017-04-05 19:00:00 -0400
 background_url: https://scontent-ord1-1.xx.fbcdn.net/v/t31.0-8/17622081_1835335103391026_1020111924151509088_o.jpg?oh=1ef8ccfa65105ee72d485ce494301c32&oe=595794D3
 rsvp_url: https://docs.google.com/a/mtu.edu/forms/d/e/1FAIpQLSe09CAgSeAt2Vwn5G30v-VPMHzjEGzdb7IGcFemqjj3wCwNYA/viewform
 ---
