@@ -1,6 +1,6 @@
 ---
 layout: event
-title: 'Cake 'n Make - Sponsored by The Pavlis Honors College'
+title: "Cake 'n Make - Sponsored by The Pavlis Honors College"
 date: 2016-03-01 07:00:00
 start_date: 2017-02-16 18:00:00 -0400
 end_date: 2017-02-16 20:00:00 -0400
