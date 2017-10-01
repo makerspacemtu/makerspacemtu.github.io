@@ -1,7 +1,7 @@
 ---
 name: AJ Hamlin
 email: ahamlin@mtu.edu
-title:  "Magann Fill Out"
+title:  "Senior Lecturer, Engineering Fundamentals"
 specialty: ""
 description:
 ---
