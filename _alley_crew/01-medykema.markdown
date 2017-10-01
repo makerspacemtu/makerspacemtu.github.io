@@ -1,7 +1,7 @@
 ---
 name: Magann Dykema
 email: medykema@mtu.edu
-title: Operations Coordinator
+title: Alley Director
 photo: medykema.jpg
 bio: Hey! I'm a third year Civil Engineering Major at Michigan Tech. My passion for
   creativity and thinking outside the box was introduced to me at a  young age,
