@@ -1,7 +1,7 @@
 ---
 name: Nathan Manser
 email: ndmanser@mtu.edu
-title:  "Magann Fill Out"
+title:  "Instructor, Engineering Fundamentals"
 specialty: ""
 description:
 ---
