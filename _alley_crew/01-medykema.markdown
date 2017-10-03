@@ -1,7 +1,7 @@
 ---
 name: Magann Dykema
 email: medykema@mtu.edu
-title: Alley Director
+title: Student Director
 photo: medykema2.jpg
 bio: Hey! I'm a fourth year Civil Engineering Major at Michigan Tech. My passion for
   creativity and thinking outside the box was introduced to me at a  young age,
