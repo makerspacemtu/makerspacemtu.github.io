@@ -26,4 +26,4 @@ different methods for communication to optimize their function.
 #### Outside the Alley Structure
 
 - **[Website](http://makerspace.mtu.edu):** About us, and how to utilize the Alley
-- **[Facebook](https://www.facebook.com/makerspacemtu/) and [Twitter](https://twitter.com/makerspacemtu):** Show off our cool stuff
+- **[Facebook]({{ site.facebook_url }}) and [Instagram]({{ site.instagram_url }}):** Show off our cool stuff
