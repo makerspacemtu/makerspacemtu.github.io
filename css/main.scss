@@ -26,6 +26,7 @@ $border-radius: 3px;
 @import "button";
 @import "call_to_action";
 @import "events";
+@import "sponsor";
 
 @include foundation-global-styles;
 @include foundation-grid;
