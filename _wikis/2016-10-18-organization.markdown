@@ -9,12 +9,9 @@ category: coach-guide
 
 ##### Alley Director
 
-- Brad Turner
+- Magann Dykema
 
 ##### Operations Coordinators
-
-- Magann Dykema
-- Spencer Miskoviak
 
 ##### Safety/Equipment Coordinators
 
