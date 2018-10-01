@@ -1,7 +1,7 @@
 ---
-name: Nathan Manser
-email: ndmanser@mtu.edu
-title:  "Instructor, Engineering Fundamentals"
+name: Lisa Casper
+email: lcasper@mtu.edu
+title:  "Innovation Center for Entrepreneurship Program Manager"
 specialty: ""
 description:
 ---
