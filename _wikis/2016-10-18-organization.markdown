@@ -9,13 +9,9 @@ category: coach-guide
 
 ##### Alley Director
 
-- Magann Dykema
-
 ##### Operations Coordinators
 
 ##### Safety/Equipment Coordinators
-
-- Denzil Cotera
 
 ##### Staff Coordinator
 
