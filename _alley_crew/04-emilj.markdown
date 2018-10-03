@@ -2,6 +2,6 @@
 name: Emil Johnson
 email: emilj@mtu.edu
 title: Operations Coordinator
-photo: emilj.jpg
-bio: Hey there, how’s she going aye? My name is Emil Johnson and I am a fifth year Biomedical / Mechanical Engineering student at Michigan Tech. I moved to Houghton four years ago with the bold  belief I told myself many others, “Because I like the snow”, and to also begin my academic career at Michigan Tech. Four years later and this belief is still holding true, but is a part of something much more, I now realize. It takes a special kind of person to live in the great white north, and I have been honored to meet so many of them. I have fallen in love with the culture of the U.P., the landscapes and everything in between. Outside of school, you can find me enjoying the weather no matter the temperature. In these past four years I’ve spent my free time attempting to utilize all of the U.P’s natural resources by mountain biking the harbor, rowing down the canal, and skiing in the miles of endless trails. The U.P. has challenged me mentally and physically, who knew I was U.P. for such a challenge. 
+photo: emilj2.jpg
+bio: Hello Makers! My name is Emil Johnson and I am a fifth year Biomedical & Mechanical student at Michigan Tech. As a dual degree myself, I have a strong belief in the importance of a well rounded set of skills, and that is why I enjoy working in the Alley. I love having the opportunity to work with students from all different disciplinary backgrounds and help them diversify their skills from brainstorming ideas, to bringing their projects to life through the use of a wide variety of tools at their disposal. It is amazing to see what people can do once their are confident in their own abilities.
 ---
