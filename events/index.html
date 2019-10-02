@@ -2,14 +2,27 @@
 layout: main
 ---
 
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v4.0"></script>
 <div class="content">
-  <div class="row">
-    <div class="small-12 columns">
-      <h3 class="header">
-        Makerspace Events
-      </h3>
 
-      {% assign sorted_events = site.events | sort: "start_date" | reverse %}
+  <div class="row">
+
+    <div class="small-12 columns ">
+
+      <h3 class="header">
+        Check Out The Alley Facebook Page for Upcoming Events!
+      </h3>
+      <div class="fb-page"
+        data-href="https://www.facebook.com/makerspacemtu/"
+        data-tabs="events,timeline"
+        data-width=""
+        data-height="500"
+        data-small-header="false"
+        data-adapt-container-width="true"
+        data-hide-cover="false"
+        data-show-facepile="true"><blockquote cite="https://www.facebook.com/makerspacemtu/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/makerspacemtu/">The Alley - Makerspace at Michigan Tech</a></blockquote></div>
+      <!-- {% assign sorted_events = site.events | sort: "start_date" | reverse %}
 
       {% for event in sorted_events %}
         {% capture should_add_row %}{{ forloop.index | modulo: 3 }}{% endcapture %}
@@ -32,13 +45,13 @@ layout: main
                 </a>
               </p>
             </a>
-          </div>
+          </div> -->
 
-        {% if should_add_row == "0" %}
-          </div>
-        {% endif %}
+        <!-- {% if should_add_row == "0" %}
+          </div> -->
+        <!-- {% endif %}
 
-      {%endfor%}
-    </div>
+      {%endfor%} -->
+    <!-- </div> -->
   </div>
 </div>
