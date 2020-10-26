@@ -21,4 +21,13 @@
     display: inline-block;
     width: calc(100% - 80px);
   }
+  
+  &__table {
+	font-family: Montserrat;
+	font-size: 24px;
+	font-weight: normal;
+	font-style: normal;
+	line-height: 1.5;
+	color: #232323;
+  }
 }
