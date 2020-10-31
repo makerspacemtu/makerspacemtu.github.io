@@ -2,12 +2,16 @@
 layout: main
 ---
 
-<div class="content wiki">
+<script type="text/javascript" src="..\js\Wiki_Library.js"></script>
+<div class="row">
+<h3 onclick="wikiDropDown()" class="header wiki__archivebtn ">
+        Archived Makerspace Wiki <i id="archiveArrowDropDown" class="arrow right"></i>
+</h3>
+</div>
+
+<div id="wikiDropDown" class="content wiki archiveContent">
   <div class="row">
     <div class="small-12 columns">
-      <h3 class="header">
-        Makerspace Wiki
-      </h3>
 
       {% assign groups = site.wikis | group_by: "category" | sort: "name" %}
 
