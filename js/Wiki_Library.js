@@ -166,8 +166,8 @@ function wikiDropDown(){
 		document.getElementById("archiveArrowDropDown").style.transform = "rotate(45deg)";
 		isOpen = false;
 	} else {
-		document.getElementById("archiveArrowDropDown").style.transform = "rotate(-45deg)";
 		isOpen = true;
+		document.getElementById("archiveArrowDropDown").style.transform = "rotate(-45deg)";
 	}
 }
 
@@ -177,11 +177,11 @@ function wikiDropDownWoodWorking(){
 		loadLibrary();
 	}
 	if( isOpenWW == true ) {
-		document.getElementById("WoodWorkingArrowDropDown").style.transform = "rotate(45deg)";
 		isOpenWW = false;
+		document.getElementById("WoodWorkingArrowDropDown").style.transform = "rotate(45deg)";
 	} else {
-		document.getElementById("WoodWorkingArrowDropDown").style.transform = "rotate(-45deg)";
 		isOpenWW = true;
+		document.getElementById("WoodWorkingArrowDropDown").style.transform = "rotate(-45deg)";
 	}
 }
 
@@ -191,11 +191,11 @@ function wikiDropDownCrafting(){
 		loadLibrary();
 	}
 	if( isOpenC == true ) {
-		document.getElementById("CraftingArrowDropDown").style.transform = "rotate(45deg)";
 		isOpenC = false;
+		document.getElementById("CraftingArrowDropDown").style.transform = "rotate(45deg)";
 	} else {
+		isOpenc = true;
 		document.getElementById("CraftingArrowDropDown").style.transform = "rotate(-45deg)";
-		isOpenC = true;
 	}
 }
 
@@ -205,11 +205,11 @@ function wikiDropDownPrinting(){
 		loadLibrary();
 	}
 	if( isOpenP == true ) {
+		isOpenp = false;
 		document.getElementById("PrintingArrowDropDown").style.transform = "rotate(45deg)";
-		isOpenP = false;
 	} else {
-		document.getElementById("PrintingArrowDropDown").style.transform = "rotate(-45deg)";
 		isOpenP = true;
+		document.getElementById("PrintingArrowDropDown").style.transform = "rotate(-45deg)";
 	}
 }
 
@@ -219,10 +219,10 @@ function wikiDropDownElectronics(){
 		loadLibrary();
 	}
 	if( isOpenE == true ) {
-		document.getElementById("ElectronicsArrowDropDown").style.transform = "rotate(45deg)";
 		isOpenE = false;
+		document.getElementById("ElectronicsArrowDropDown").style.transform = "rotate(45deg)";
 	} else {
-		document.getElementById("ElectronicsArrowDropDown").style.transform = "rotate(-45deg)";
 		isOpenE = true;
+		document.getElementById("ElectronicsArrowDropDown").style.transform = "rotate(-45deg)";
 	}
 }
