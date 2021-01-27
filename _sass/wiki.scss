@@ -51,11 +51,11 @@
 
   &__archivebtn {
 	   cursor: pointer;
-     
-	&:hover {
-	   cursor: pointer;
+    &:link{}
+  	&:hover {
+	    cursor: pointer;
 	    color: $dark;
-	}
+  	}
 
   }
 }
